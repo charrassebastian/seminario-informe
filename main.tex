@@ -430,6 +430,9 @@ El editor avanzado para puestos permite agregar, quitar y editar puestos. Los da
 
 El editor de trivias permite agregar, quitar y editar trivias. En cada trivia pueden modificarse la pregunta, la explicación, las respuestas y la validez de cada una.
 \section{Resultados}
+El sistema implementado consta de los componentes descriptos anteriormente, por lo que en esta sección podrán verse el aspecto que tomaron, detalles sobre su funcionalidad y características finales.
+
+En la pantalla principal (fig.~\ref{fig:pantallaPrincipal}), ideada para usarse en una pantalla que sea vista por quienes estén esperando para pasar a un puesto libre, muestra aquellos puestos que estén libres y la sección de la trivia.
 \begin{figure}[H]
 	\caption{Pantalla principal del sistema}
     \begin{subfigure}{1\textwidth}
@@ -438,7 +441,7 @@ El editor de trivias permite agregar, quitar y editar trivias. En cada trivia pu
 	\label{fig:pantallaPrincipal}
 \end{figure}
 \vspace{-1.0\baselineskip}
-
+En el editor de puesto (fig.~\ref{fig:editorPuesto}), pensado para que cada empleado encargado de un puesto, permite que se elija un puesto y se indique su liberación u ocupación, lo cual se ve reflejado en la pantalla principal que se actualiza automáticamente.
 \begin{figure}[H]
 	\caption{Editor de puesto}
     \begin{subfigure}{1\textwidth}
@@ -447,7 +450,7 @@ El editor de trivias permite agregar, quitar y editar trivias. En cada trivia pu
 	\label{fig:editorPuesto}
 \end{figure}
 \vspace{-1.0\baselineskip}
-
+En el editor de puestos avanzado (fig.~\ref{fig:editorPuestosAvanzado}), necesario para un administrador del sistema, permite no solo liberar y ocupar puestos sino también cambiar sus nombres, agregar e incluso remover puestos.
 \begin{figure}[H]
 	\caption{Editor de puestos avanzado}
     \begin{subfigure}{1\textwidth}
@@ -456,7 +459,7 @@ El editor de trivias permite agregar, quitar y editar trivias. En cada trivia pu
 	\label{fig:editorPuestosAvanzado}
 \end{figure}
 \vspace{-1.0\baselineskip}
-
+En el editor de trivias (fig.~\ref{fig:editorTrivias}), necesario para un administrador del sistema, se pueden agregar, eliminar y editar trivias. Entre los campos que pueden editarse se encuentran las preguntas, respuestas y explicaciones de las trivias.
 \begin{figure}[H]
 	\caption{Editor de trivias}
     \begin{subfigure}{1\textwidth}
@@ -465,7 +468,15 @@ El editor de trivias permite agregar, quitar y editar trivias. En cada trivia pu
 	\label{fig:editorTrivias}
 \end{figure}
 \vspace{-1.0\baselineskip}
+Se incluyó un fondo de pantalla para las interfaz de usuario para que la misma tuviera un mejor aspecto visual, el mismo en primera instancia se intentó que estuviera relacionado con la medicina o incluso el mismo Hospital de Clínicas, sin embargo al dar un aspecto poco conveniente se optó por un fondo que, aunque pudiera parecer fuera de lugar (lo mismo podría decirse de la trivia, que es en realidad una funcionalidad fundamental del sistema), brinda un aspecto más ameno a una interfaz que, de otra forma, podría verse desagradable.
 
+Al incluirse en el repositorio ubicado en: \href{https://github.com/charrassebastian/sirhc}{https://github.com/charrassebastian/sirhc} se encuentra tanto el código como también archivos de configuración para realizar el despliegue con Docker y Kubernetes.
+
+Al usar contenedores se pueden aislar las capas del sistema (cliente, servidor y base de datos). Para contar con una versión disponible como parte de un portfolio de proyectos, en un servidor presente en una red local se realizó un despliegue aprovechando las tecnologías Docker y Kubernetes, y que al momento de redactar este informe puede accederse a través del siguiente enlace: \href{https://sirhc.sebastiancharras.tech}{https://sirhc.sebastiancharras.tech}.
+
+Los tests implementados para la API permiten contar con un mayor grado de confianza en el sistema, asegurando el buen funcionamiento de esta parte esencial del backend, necesaria para que pueda usarse sin problemas. El testing no incluyó, por ejemplo, a los componentes del cliente, sino que se centró exclusivamente en la API, particularmente en el servidor.
+
+La base de datos usa MongoDB, para lo que puede aprovecharse la imagen oficial de dicho software para crear un contenedor y correrlo de manera sencilla. Las versiones más recientes requieren soporte de instrucciones AVX en el procesador, por lo que en computadoras más antiguas y de gamas más bajas es posible encontrar incompatibilidades debido a este requisito. Sin embargo, usando una versión antigua es posible resolver este problema, como por ejemplo la versión 4.
 \section{Conclusiones}
 \section{Referencias}
 \begin{sloppypar}
