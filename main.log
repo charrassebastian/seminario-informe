@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.15)  18 DEC 2023 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.15)  18 DEC 2023 15:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -990,108 +990,109 @@ File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) [1
 
 {C:/Users/sebas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Logo-UTN-INSPT.png>]
-<hospital.png, id=142, 581.17125pt x 325.215pt>
-File: hospital.png Graphic file (type png)
-<use hospital.png>
-Package pdftex.def Info: hospital.png  used on input line 77.
-(pdftex.def)             Requested size: 341.43437pt x 191.06136pt.
-<preguntados.png, id=146, 283.0575pt x 518.93875pt>
-File: preguntados.png Graphic file (type png)
-<use preguntados.png>
-Package pdftex.def Info: preguntados.png  used on input line 91.
-(pdftex.def)             Requested size: 170.71393pt x 312.981pt.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.97 D
-      ado que se busca usar una trivia para el proyecto en cuestión, se bus... [1 <./hospital.png>]
-<colectivo.png, id=164, 635.37375pt x 395.4775pt>
+l.71 \newpage
+              [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
+<hospital.png, id=196, 581.17125pt x 325.215pt>
+File: hospital.png Graphic file (type png)
+<use hospital.png>
+Package pdftex.def Info: hospital.png  used on input line 131.
+(pdftex.def)             Requested size: 341.43437pt x 191.06136pt.
+ [14]
+<preguntados.png, id=206, 283.0575pt x 518.93875pt>
+File: preguntados.png Graphic file (type png)
+<use preguntados.png>
+Package pdftex.def Info: preguntados.png  used on input line 145.
+(pdftex.def)             Requested size: 170.71393pt x 312.981pt.
+ [15 <./hospital.png>]
+<colectivo.png, id=222, 635.37375pt x 395.4775pt>
 File: colectivo.png Graphic file (type png)
 <use colectivo.png>
-Package pdftex.def Info: colectivo.png  used on input line 101.
+Package pdftex.def Info: colectivo.png  used on input line 155.
 (pdftex.def)             Requested size: 341.43437pt x 212.5288pt.
- [2 <./preguntados.png>] [3 <./colectivo.png>] [4] [5]
-<calificaciones para metodologias.png, id=199, 673.51625pt x 409.53pt>
+ [16 <./preguntados.png>] [17 <./colectivo.png>] [18] [19]
+<calificaciones para metodologias.png, id=258, 673.51625pt x 409.53pt>
 File: calificaciones para metodologias.png Graphic file (type png)
 <use calificaciones para metodologias.png>
-Package pdftex.def Info: calificaciones para metodologias.png  used on input line 187.
+Package pdftex.def Info: calificaciones para metodologias.png  used on input line 241.
 (pdftex.def)             Requested size: 426.79135pt x 259.51125pt.
- [6 <./calificaciones para metodologias.png>]
+ [20 <./calificaciones para metodologias.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 200.
+(Font)              <7> on input line 254.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 200.
-<calificaciones para lenguajes frontend.png, id=222, 607.26875pt x 342.27875pt>
+(Font)              <5> on input line 254.
+<calificaciones para lenguajes frontend.png, id=280, 607.26875pt x 342.27875pt>
 File: calificaciones para lenguajes frontend.png Graphic file (type png)
 <use calificaciones para lenguajes frontend.png>
-Package pdftex.def Info: calificaciones para lenguajes frontend.png  used on input line 217.
+Package pdftex.def Info: calificaciones para lenguajes frontend.png  used on input line 271.
 (pdftex.def)             Requested size: 426.79135pt x 240.55968pt.
- [7] [8 <./calificaciones para lenguajes frontend.png>]
-<calificaciones para frameworks css.png, id=260, 607.26875pt x 342.27875pt>
+ [21] [22 <./calificaciones para lenguajes frontend.png>]
+<calificaciones para frameworks css.png, id=318, 607.26875pt x 342.27875pt>
 File: calificaciones para frameworks css.png Graphic file (type png)
 <use calificaciones para frameworks css.png>
-Package pdftex.def Info: calificaciones para frameworks css.png  used on input line 244.
+Package pdftex.def Info: calificaciones para frameworks css.png  used on input line 298.
 (pdftex.def)             Requested size: 426.79135pt x 240.55968pt.
- [9 <./calificaciones para frameworks css.png>]
-<vue-usage-from-2016-to-2021.png, id=284, 1020.81375pt x 691.58376pt>
+ [23 <./calificaciones para frameworks css.png>]
+<vue-usage-from-2016-to-2021.png, id=342, 1020.81375pt x 691.58376pt>
 File: vue-usage-from-2016-to-2021.png Graphic file (type png)
 <use vue-usage-from-2016-to-2021.png>
-Package pdftex.def Info: vue-usage-from-2016-to-2021.png  used on input line 270.
+Package pdftex.def Info: vue-usage-from-2016-to-2021.png  used on input line 324.
 (pdftex.def)             Requested size: 341.43437pt x 231.31528pt.
-<most-used-web-frameworks-2021-survey-1-1024x576.png, id=285, 1027.84pt x 578.16pt>
+<most-used-web-frameworks-2021-survey-1-1024x576.png, id=343, 1027.84pt x 578.16pt>
 File: most-used-web-frameworks-2021-survey-1-1024x576.png Graphic file (type png)
 <use most-used-web-frameworks-2021-survey-1-1024x576.png>
-Package pdftex.def Info: most-used-web-frameworks-2021-survey-1-1024x576.png  used on input line 280.
+Package pdftex.def Info: most-used-web-frameworks-2021-survey-1-1024x576.png  used on input line 334.
 (pdftex.def)             Requested size: 384.1096pt x 216.05959pt.
- [10 <./vue-usage-from-2016-to-2021.png>]
-<calificaciones para frameworks frontend.png, id=305, 607.26875pt x 342.27875pt>
+ [24 <./vue-usage-from-2016-to-2021.png>]
+<calificaciones para frameworks frontend.png, id=364, 607.26875pt x 342.27875pt>
 File: calificaciones para frameworks frontend.png Graphic file (type png)
 <use calificaciones para frameworks frontend.png>
-Package pdftex.def Info: calificaciones para frameworks frontend.png  used on input line 295.
+Package pdftex.def Info: calificaciones para frameworks frontend.png  used on input line 349.
 (pdftex.def)             Requested size: 426.79135pt x 240.55968pt.
- [11 <./most-used-web-frameworks-2021-survey-1-1024x576.png>] [12 <./calificaciones para frameworks frontend.png>]
-<calificaciones para lenguajes y frameworks backend.png, id=345, 607.26875pt x 342.27875pt>
+ [25 <./most-used-web-frameworks-2021-survey-1-1024x576.png>] [26 <./calificaciones para frameworks frontend.png>]
+<calificaciones para lenguajes y frameworks backend.png, id=403, 607.26875pt x 342.27875pt>
 File: calificaciones para lenguajes y frameworks backend.png Graphic file (type png)
 <use calificaciones para lenguajes y frameworks backend.png>
-Package pdftex.def Info: calificaciones para lenguajes y frameworks backend.png  used on input line 327.
+Package pdftex.def Info: calificaciones para lenguajes y frameworks backend.png  used on input line 381.
 (pdftex.def)             Requested size: 426.79135pt x 240.55968pt.
- [13 <./calificaciones para lenguajes y frameworks backend.png>]
-<calificaciones para dbms.png, id=375, 607.26875pt x 342.27875pt>
+ [27 <./calificaciones para lenguajes y frameworks backend.png>]
+<calificaciones para dbms.png, id=433, 607.26875pt x 342.27875pt>
 File: calificaciones para dbms.png Graphic file (type png)
 <use calificaciones para dbms.png>
-Package pdftex.def Info: calificaciones para dbms.png  used on input line 356.
+Package pdftex.def Info: calificaciones para dbms.png  used on input line 410.
 (pdftex.def)             Requested size: 426.79135pt x 240.55968pt.
- [14] [15 <./calificaciones para dbms.png>]
-<calificaciones para frameworks para testing.png, id=414, 607.26875pt x 342.27875pt>
+ [28] [29 <./calificaciones para dbms.png>]
+<calificaciones para frameworks para testing.png, id=472, 607.26875pt x 342.27875pt>
 File: calificaciones para frameworks para testing.png Graphic file (type png)
 <use calificaciones para frameworks para testing.png>
-Package pdftex.def Info: calificaciones para frameworks para testing.png  used on input line 386.
+Package pdftex.def Info: calificaciones para frameworks para testing.png  used on input line 440.
 (pdftex.def)             Requested size: 426.79135pt x 240.55968pt.
- [16 <./calificaciones para frameworks para testing.png>] [17]
-<sirhc pantalla principal.png, id=432, 3420.78pt x 1844.8925pt>
+ [30 <./calificaciones para frameworks para testing.png>] [31]
+<sirhc pantalla principal.png, id=491, 3420.78pt x 1844.8925pt>
 File: sirhc pantalla principal.png Graphic file (type png)
 <use sirhc pantalla principal.png>
-Package pdftex.def Info: sirhc pantalla principal.png  used on input line 439.
+Package pdftex.def Info: sirhc pantalla principal.png  used on input line 493.
 (pdftex.def)             Requested size: 426.79135pt x 230.16058pt.
- [18]
-<sirhc editor de puesto.png, id=439, 3420.78pt x 1844.8925pt>
+ [32]
+<sirhc editor de puesto.png, id=497, 3420.78pt x 1844.8925pt>
 File: sirhc editor de puesto.png Graphic file (type png)
 <use sirhc editor de puesto.png>
-Package pdftex.def Info: sirhc editor de puesto.png  used on input line 448.
+Package pdftex.def Info: sirhc editor de puesto.png  used on input line 502.
 (pdftex.def)             Requested size: 426.79135pt x 230.16058pt.
-<sirhc editor de puestos avanzado.png, id=441, 3420.78pt x 1844.8925pt>
+<sirhc editor de puestos avanzado.png, id=499, 3420.78pt x 1844.8925pt>
 File: sirhc editor de puestos avanzado.png Graphic file (type png)
 <use sirhc editor de puestos avanzado.png>
-Package pdftex.def Info: sirhc editor de puestos avanzado.png  used on input line 457.
+Package pdftex.def Info: sirhc editor de puestos avanzado.png  used on input line 511.
 (pdftex.def)             Requested size: 426.79135pt x 230.16058pt.
- [19 <./sirhc pantalla principal.png> <./sirhc editor de puesto.png>]
-<sirhc editor de trivias.png, id=451, 3420.78pt x 1844.8925pt>
+ [33 <./sirhc pantalla principal.png> <./sirhc editor de puesto.png>]
+<sirhc editor de trivias.png, id=509, 3420.78pt x 1844.8925pt>
 File: sirhc editor de trivias.png Graphic file (type png)
 <use sirhc editor de trivias.png>
-Package pdftex.def Info: sirhc editor de trivias.png  used on input line 466.
+Package pdftex.def Info: sirhc editor de trivias.png  used on input line 520.
 (pdftex.def)             Requested size: 426.79135pt x 230.16058pt.
- [20 <./sirhc editor de puestos avanzado.png> <./sirhc editor de trivias.png>] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] (main.aux
+ [34 <./sirhc editor de puestos avanzado.png> <./sirhc editor de trivias.png>] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] (main.aux
 LaTeX Info: Redefining \sptext on input line 15.
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
@@ -1107,17 +1108,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33132 strings out of 474491
- 649421 string characters out of 5743833
+ 33146 strings out of 474491
+ 649519 string characters out of 5743833
  1953473 words of memory out of 5000000
  54776 multiletter control sequences out of 15000+600000
  569777 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,9n,93p,1380b,2813s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1000.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2488.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk>
-Output written on main.pdf (36 pages, 20912886 bytes).
+ <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1000.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2488.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\sebas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk>
+Output written on main.pdf (50 pages, 20925054 bytes).
 PDF statistics:
- 1200 PDF objects out of 1200 (max. 8388607)
- 171 named destinations out of 1000 (max. 500000)
+ 1264 PDF objects out of 1440 (max. 8388607)
+ 185 named destinations out of 1000 (max. 500000)
  338 words of extra memory for PDF output out of 10000 (max. 10000000)
 
