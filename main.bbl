@@ -253,6 +253,74 @@
       \verb https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-angular-development/
       \endverb
     \endentry
+    \entry{instalacionKubectl}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd8e67856064116ead0c0e53d8c0de72}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           given={The\bibnamedelima Kubernetes},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{fullhash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{bibnamehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{authorbibnamehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{authornamehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{authorfullhash}{fd8e67856064116ead0c0e53d8c0de72}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Install and Set Up kubectl on Linux}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+      \endverb
+      \verb{url}
+      \verb https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+      \endverb
+    \endentry
+    \entry{instalacionMinikube}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd8e67856064116ead0c0e53d8c0de72}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           given={The\bibnamedelima Kubernetes},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{fullhash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{bibnamehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{authorbibnamehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{authornamehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{authorfullhash}{fd8e67856064116ead0c0e53d8c0de72}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{minikube start}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://minikube.sigs.k8s.io/docs/start/
+      \endverb
+      \verb{url}
+      \verb https://minikube.sigs.k8s.io/docs/start/
+      \endverb
+    \endentry
     \entry{ayakoSayama}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=753e617168afb3d0b573753fe42c9a9e}{%
@@ -994,6 +1062,74 @@
       \endverb
       \verb{url}
       \verb https://www.mindk.com/blog/javascript-testing-framework/
+      \endverb
+    \endentry
+    \entry{instalacionDocker}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0a6e82dfd0df55343233c1768adf738c}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Docker},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{fullhash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{bibnamehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{authorbibnamehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{authornamehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{authorfullhash}{0a6e82dfd0df55343233c1768adf738c}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Install Docker Engine on Ubuntu}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.docker.com/engine/install/ubuntu/
+      \endverb
+      \verb{url}
+      \verb https://docs.docker.com/engine/install/ubuntu/
+      \endverb
+    \endentry
+    \entry{configuracionDocker}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0a6e82dfd0df55343233c1768adf738c}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Docker},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{fullhash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{bibnamehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{authorbibnamehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{authornamehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{authorfullhash}{0a6e82dfd0df55343233c1768adf738c}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Linux post-installation steps for Docker Engine}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.docker.com/engine/install/linux-postinstall/
+      \endverb
+      \verb{url}
+      \verb https://docs.docker.com/engine/install/linux-postinstall/
       \endverb
     \endentry
     \entry{iepWaterfall}{online}{}
@@ -2852,6 +2988,74 @@
       \verb https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-angular-development/
       \endverb
     \endentry
+    \entry{instalacionKubectl}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd8e67856064116ead0c0e53d8c0de72}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           given={The\bibnamedelima Kubernetes},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{fullhash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{bibnamehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{authorbibnamehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{authornamehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{authorfullhash}{fd8e67856064116ead0c0e53d8c0de72}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Install and Set Up kubectl on Linux}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+      \endverb
+      \verb{url}
+      \verb https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+      \endverb
+    \endentry
+    \entry{instalacionMinikube}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd8e67856064116ead0c0e53d8c0de72}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           given={The\bibnamedelima Kubernetes},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{fullhash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{bibnamehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{authorbibnamehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{authornamehash}{fd8e67856064116ead0c0e53d8c0de72}
+      \strng{authorfullhash}{fd8e67856064116ead0c0e53d8c0de72}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{minikube start}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://minikube.sigs.k8s.io/docs/start/
+      \endverb
+      \verb{url}
+      \verb https://minikube.sigs.k8s.io/docs/start/
+      \endverb
+    \endentry
     \entry{ayakoSayama}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=753e617168afb3d0b573753fe42c9a9e}{%
@@ -3593,6 +3797,74 @@
       \endverb
       \verb{url}
       \verb https://www.mindk.com/blog/javascript-testing-framework/
+      \endverb
+    \endentry
+    \entry{instalacionDocker}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0a6e82dfd0df55343233c1768adf738c}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Docker},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{fullhash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{bibnamehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{authorbibnamehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{authornamehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{authorfullhash}{0a6e82dfd0df55343233c1768adf738c}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Install Docker Engine on Ubuntu}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.docker.com/engine/install/ubuntu/
+      \endverb
+      \verb{url}
+      \verb https://docs.docker.com/engine/install/ubuntu/
+      \endverb
+    \endentry
+    \entry{configuracionDocker}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0a6e82dfd0df55343233c1768adf738c}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Docker},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{fullhash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{bibnamehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{authorbibnamehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{authornamehash}{0a6e82dfd0df55343233c1768adf738c}
+      \strng{authorfullhash}{0a6e82dfd0df55343233c1768adf738c}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Linux post-installation steps for Docker Engine}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.docker.com/engine/install/linux-postinstall/
+      \endverb
+      \verb{url}
+      \verb https://docs.docker.com/engine/install/linux-postinstall/
       \endverb
     \endentry
     \entry{iepWaterfall}{online}{}

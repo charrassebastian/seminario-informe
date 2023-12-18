@@ -121,6 +121,7 @@ El presente trabajo busca eficientizar el uso del tiempo en la recepción para i
 A lo largo del trabajo podrán observarse las implementaciones realizadas para otras instituciones de sistemas similares (Estado del Arte), cuales son los detalles de las problemáticas que se busca resolver (Definición del problema), que características posee la solución planteada (Solución propuesta), los resultados y las conclusiones.
 
 En el anexo se podrá ahondar en el analisis que se realizó a la hora de elegir las principales tecnologías y metodologías a usar.
+\newpage
 \section{Estado del arte}
 En la actualidad se utilizan sistemas que cumplen al menos uno de los dos principales objetivos del proyecto en cuestión, ya sea indicar información relevante o brindar un medio para volver más ameno el momento.
 
@@ -159,6 +160,7 @@ Dado que se busca usar una trivia para el proyecto en cuestión, se buscó infor
 \end{figure}
 \vspace{-1.0\baselineskip}
 Los ejemplos de sistemas vigentes actualmente muestran algunas formas en que se resolvieron problemáticas similares a las que se debió enfrentar el proyecto actual. Elementos como la trivia y las indicaciones para distribuir pacientes son necesarios para resolverlas, y también la provisión de una salida sonora para el sistema demostró ser necesaria para así volver dar más accesibilidad al sistema.
+\newpage
 \section{Definición del problema}
 Antes de desarrollar el sistema planteado, existían múltiples problemas en el sector de espera para internación del Hospital de Clínicas.
 
@@ -169,10 +171,12 @@ Además, al tratarse de una espera para internación, la situación no resultaba
 Por último, al contar con un edificio de grandes proporciones, no es fácil saber específicamente ciertas cosas como, por ejemplo, la ubicación de los distintos sectores de atención. Podía aumentarse el conocimiento de aspectos importantes como este mediante el uso de la pantalla para dar información que beneficie a los pacientes adicional a la de los puestos libres.
 
 De esta forma, con una pantalla, un sistema de audio y una computadora podían atenderse los tres problemas utilizando un sistema que indique los puestos libres, información sobre temas relevantes y una trivia referida a esos temas para volver más amena la espera.
+\newpage
 \section{Solución propuesta}
 Para dar una solución a los problemas vistos, se necesitó contar con una lista de puestos libres que sólo muestre aquellos a los cuales los pacientes puedan pasar. En caso de que todos se encuentren libres, en su lugar se optó por mostrar un único mensaje que lo indique. Si ninguno se encuentra libre se muestra también un único mensaje para indicarlo. Cuando un puesto se libera, esto se indica también mediante la salida de audio.
 
 Para mostrar la trivia se eligió usar una parte de la pantalla, en la que se muestre primero un texto con información relevante, luego un enunciado con unas posibles respuestas, y un timer. Una vez terminado el tiempo, se indica la respuesta correcta y un texto que brinda información relevante.
+\newpage
 \subsection{Determinación de metodologías y tecnologías a utilizar}
 A la hora de determinar las metodologías y tecnologías que se usarán en el desarrollo del sistema, se debieron tener en cuenta ciertos factores que permitieran distinguir las mejores opciones de entre las demás. Para ello se prestó atención a los factores enumerados a continuación:
 
@@ -443,6 +447,7 @@ Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo
 \end{figure}
 \vspace{-1.0\baselineskip}
 Como resultado del proceso de selección detallado en el Anexo I, se determinó que Jest sería la opción elegida para el desarrollo del sistema.
+\newpage
 \subsection{Análisis de requisitos}
 El sistema consta de dos requisitos principales: en primer lugar, aportar información sobre qué puestos se encuentran libres, actualizandose de manera automática y permitiendo a quienes lo controlen modificar dicha información; y en segundo lugar, brindar un método de recreación a través de una trivia, la cual también deberá ser editable por quienes controlen el sistema.
 
@@ -461,10 +466,12 @@ Los datos deberán guardarse en una base de datos de tal forma que los mismos qu
 La trivia constará de preguntas con varias respuestas posibles, algunas correctas y otras incorrectas, y una explicación de por qué son correctas las respuestas así indicadas. Contar con animaciones para las transiciones entre preguntas y respuestas resulta apropiado para dar una mejor experiencia al usuario. Las trivias se podrán ver desde la pantalla principal junto con los puestos.
 
 Cada trivia podrá ser ingresada por los encargados del sistema. Deberá proveerse una interfaz de usuario que permita también eliminar trivias y editarlas, modificando campos como la pregunta, las respuestas, cuáles son correctas y la explicación.
+\newpage
 \subsection{Especificaciones del sistema}
 Para la base de datos se optó por usar MongoDB. Esto implicó que la conexión entre el servidor y la base de datos se realice a través de Mongoose. Este servidor se implementó con tecnologías basadas en JavaScript, como NodeJS\textsuperscript{\textregistered} y Express.js. El testing se realizó usando Jest. Para permitir el despliegue usando contenedores se usó Docker junto con Kubernetes.
 
 Para el frontend se eligió crear un cliente web que fuera accesible desde un navegador de internet. Al igual que en el backend se usaron tecnologías basadas en JavaScript, en este caso React junto con Fluent UI, Tailwind y Vite.
+\newpage
 \subsection{Análisis del sistema}
 La información necesaria para ambas partes del sistema se representó a través de documentos en la base de datos no relacional hecha con MongoDB. Estos documentos podían contar con dos estructuras, dependiendo si se trataba de trivias o de puestos.
 
@@ -483,6 +490,7 @@ El editor simple para puestos permite elegir a través de una lista desplegable 
 El editor avanzado para puestos permite agregar, quitar y editar puestos. Los datos que permite modificar son los nombres y las disponibilidades de cada puesto.
 
 El editor de trivias permite agregar, quitar y editar trivias. En cada trivia pueden modificarse la pregunta, la explicación, las respuestas y la validez de cada una.
+\newpage
 \section{Resultados}
 El sistema implementado consta de los componentes descriptos anteriormente, por lo que en esta sección podrán verse el aspecto que tomaron, detalles sobre su funcionalidad y características finales.
 
@@ -531,6 +539,7 @@ Al usar contenedores se pueden aislar las capas del sistema (cliente, servidor y
 Los tests implementados para la API permiten contar con un mayor grado de confianza en el sistema, asegurando el buen funcionamiento de esta parte esencial del backend, necesaria para que pueda usarse sin problemas. El testing no incluyó, por ejemplo, a los componentes del cliente, sino que se centró exclusivamente en la API, particularmente en el servidor.
 
 La base de datos usa MongoDB, para lo que puede aprovecharse la imagen oficial de dicho software para crear un contenedor y correrlo de manera sencilla. Las versiones más recientes requieren soporte de instrucciones AVX en el procesador, por lo que en computadoras más antiguas y de gamas más bajas es posible encontrar incompatibilidades debido a este requisito. Sin embargo, usando una versión antigua es posible resolver este problema, como por ejemplo la versión 4.
+\newpage
 \section{Conclusiones}
 La experiencia de desarrollo fue enriquecedora, contribuyendo a adquirir y reforzar conocimientos en diversas áreas del desarrollo, tanto sobre tecnologías como de metodologías.
 
@@ -541,14 +550,17 @@ Ahora bien, aunque sea muchas veces vista de una manera muy positiva debido a la
 Por otra parte, las tecnologías usadas contribuyeron a la creación del sistema sin requerir cantidades de tiempo de aprendizaje demasiado grandes. Su sencillez de uso y amplia documentación, así como la extensa cantidad de bibliotecas disponibles hicieron que la implementación del sistema se realizara de una manera rápida.
 
 Aunque la cantidad de tecnologías y de metodologías en las que se tuvo que ahondar para realizar el desarrollo fue mayor que en otros proyectos realizados, las elecciones tomadas hicieron que esto no llevara a un atraso en los tiempos de desarrollo ni a una merma en las características implementadas. Los nuevos conocimientos adquiridos y la experiencia con la metodología Test Driven Development son algunas de las cosas más útiles que se obtuvieron en este proyecto.
+\newpage
 \section{Referencias}
 \begin{sloppypar}
 \printbibliography[heading=none,category=cited]
 \end{sloppypar}
+\newpage
 \section{Bibliografía}
 \printbibliography[heading=none,notcategory=cited]
+\newpage
 \section{Anexos}
-\subsection{Anexo I}
+\subsection{Selección de metodologías y tecnologías}
 \subsubsection{Selección de metodologías}
 Para realizar la selección se usaron los mismos símbolos como pesos indicados en el ejemplo. Los pesos de referencia de los atributos para este caso son los siguientes:
 \begin{itemize}
@@ -950,4 +962,107 @@ A continuación se puede ver el ranking para estas tecnologías:
     \item Mocha - 1E y 1+
 \end{itemize}
 Por su rendimiento fue elegido Jest como framework para testing, que obtuvo la calificación más alta de entre las opciones consideradas.
+\newpage
+\subsection{Manual de uso}
+El Sistema Informativo para la Recepción del Hospital de Clínicas consta de 4 secciones principales. Aquí se verá la funcionalidad que tiene cada sección y cómo utilizarlas. Para pasar de una sección a otra, presionar el botón en la esquina superior izquierda y seleccionar la pantalla que se desee abrir, luego se puede cerrar el menú presionando de nuevo el mismo botón usado para abrirlo.
+
+En primer lugar se encuentra la pantalla principal, en la cual pueden observarse los puestos libres y las trivias.
+
+Al liberarse u ocuparse puestos, la lista de puestos libres se actualiza sin necesidad de recargar manualmente la página. En caso de querer tener una salida sonora, al abrir esta página habilitar el audio haciendo click en el botón con forma de altavoz en la parte inferior de la sección de puestos libres. El tipo de voz usada para esta salida sonora puede variar de un navegador de internet a otro.
+
+La sección de trivias va mostrando las distintas trivias que hay guardadas en el sistema, alternando entre pregunta y opciones de respuesta, y la explicación con las respuestas correctas.
+
+La pantalla del editor de puesto permite que alguien que está atendiendo en un puesto indique cuando supuesto se ocupe o se libere. Conforme se vayan ocupando y liberando puestos, la pantalla principal actualizará la lista de puestos libres y también informará la nueva lista en caso de estar habilitada la salida sonora. Tiene un selector de puesto y un botón para alternar su estado entre ocupado y liberado.
+
+La pantalla del editor de puestos avanzado permite modificar el nombre y la disponibilidad de cada puesto, agregar más puestos y quitar los ya existentes. Antes de editar un puesto es necesario presionar en el botón Editar de dicho puesto.
+
+La pantalla del editor de trivia permite agregar y remover trivias, y también editar cada trivia. Al presionar el botón Editar, se habilitan las opciones para modificar la pregunta, explicación y respuestas (tanto su texto y si son correctas como su cantidad, pudiendo agregar o remover opciones).
+\newpage
+\subsection{Manual de instalación}
+A continuación se mostrará cómo puede configurarse el sistema para que pueda funcionar y cuales son sus requisitos.
+
+Este sistema está pensado para correr en una computadora principal que actuará como servidor y otras (una por puesto) que se encuentren conectadas en la misma red local de internet.
+
+El servidor deberá correr, preferentemente, un sistema basado en Linux, en este caso se darán las instrucciones para Ubuntu 22.04.
+
+La base de datos requiere que el procesador tenga soporte para las instrucciones AVX, por lo que procesadores muy antiguos o de gamas más bajas pueden dar problemas. Esto puede resolverse usando un procesador más moderno o una versión más antigua de MongoDB (4 o inferior).
+
+Para realizar el despliegue del sistema se hará uso de tecnologías basadas en contenedores: Docker y Kubernetes.
+
+Será necesario contar con Docker instalado y configurado para poder ser ejecutado sin necesitar permisos de superusuario. También será necesario tener instalado minikube y kubectl para poder orquestrar los contenedores con kubernetes.
+
+A continuación se dejan algunos enlaces útiles para instalar y configurar el software necesario para ejecutar el sistema.
+
+\begin{itemize}
+    \item \href{https://docs.docker.com/engine/install/ubuntu/}{https://docs.docker.com/engine/install/ubuntu/}
+    \item \href{https://docs.docker.com/engine/install/linux-postinstall/}{https://docs.docker.com/engine/install/linux-postinstall/}
+    \item \href{https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/}{https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/}
+    \item \href{https://minikube.sigs.k8s.io/docs/start/}{https://minikube.sigs.k8s.io/docs/start/}
+\end{itemize}
+
+Para poder correr las capas del sistema, ejecutar en primer lugar el siguiente comando:
+
+minikube start
+
+Para poder ver el estado de las capas del sistema se puede luego ejecutar el próximo comando:
+
+minikube dashboard
+
+Es necesario aplicar las configuraciones del backend, frontend y la base de datos, para ello hay que primero clonar el repositorio del sistema:
+
+git clone https://github.com/charrassebastian/sirhc
+
+Ahora ir al directorio que contiene el código (sirhc), abrir el subdirectorio database. Luego ejecutar los siguientes comandos para aplicar cada archivo de configuración:
+
+kubectl apply -f persistentvolume.yaml
+
+kubectl apply -f persistentvolumeclaim.yaml
+
+kubectl apply -f service.yaml
+
+kubectl apply -f statefulset.yaml
+
+kubectl apply -f storageclass.yaml
+
+Con estas configuraciones para la base de datos aplicadas, es hora de configurar el backend. Acceder dentro del directorio sirhc al subdirectorio backend, y luego ejecutar:
+
+kubectl apply -f deployment.yaml
+
+kubectl apply -f service.yaml
+
+Ahora que las configuraciones para el frontend ya se han aplicado, hay que configurar el frontend. Abrir dentro del directorio sirhc  el subdirectorio frontend y ejecutar:
+
+kubectl apply -f sirhc-frontend-deployment.yaml
+
+kubectl apply -f sirhc-frontend-service.yaml
+
+Luego de unos minutos los contenedores ya deberían estar corriendo luego de haber sido descargados los datos necesarios. Cuando en el dashboard de minikube aparezcan todos los deployments con el estado running, entonces es hora de permitir las conexiones a los contenedores:
+
+kubectl port-forward svc/sirhc-backend 8082:80 \&
+
+kubectl port-forward svc/sirhc-frontend 8080:80 \&
+
+Para saber cuál es la dirección IP del servidor, desde este ejecutar:
+
+ip a
+
+Esta dirección IP deberá usarse desde los navegadores de internet que vayan a acceder al sistema. Es importante que las computadoras que se conecten se encuentren en la misma red local, ya que de lo contrario no podrán hacer uso del sistema.
+
+Ahora al ingresar al navegador de internet la url con el formato:
+
+\href{http://localhost:8080}{http://localhost:8080}
+
+Reemplazando localhost por la direccion IP del servidor, se podrá ver la pantalla principal del sistema.
+
+De aquí en adelante, cada vez que se inicie nuevamente el servidor habrá que ejecutar estos comandos para que funcione el sistema:
+
+minikube start
+
+kubectl port-forward svc/sirhc-backend 8082:80 \&
+
+kubectl port-forward svc/sirhc-frontend 8080:80 \&
+
+Y luego obtener la dirección IP para conectarse al servidor:
+
+ip a
 \end{document}

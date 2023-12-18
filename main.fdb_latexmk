@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1702924722 "main.bcf" "main.bbl" "main" 1702924915 0
-  "./bibliografia.bib" 1702668701 16782 334444034660547c75a86ae946371678 ""
-  "main.bcf" 1702924914 139123 3657d717e0dec08fccf1af06ab5fe689 "pdflatex"
+["biber main"] 1702937634 "main.bcf" "main.bbl" "main" 1702942833 0
+  "./bibliografia.bib" 1702937639 17529 da736e702dec022f2a0da9aeb1b933d1 ""
+  "main.bcf" 1702942832 139123 3657d717e0dec08fccf1af06ab5fe689 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1702924905 "c:/Users/sebas/Downloads/informe final seminario/main.tex" "main.pdf" "main" 1702924915 0
+["pdflatex"] 1702942821 "c:/Users/sebas/Downloads/informe final seminario/main.tex" "main.pdf" "main" 1702942833 0
   "C:/Users/sebas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1702671205 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/sebas/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1702671229 25420 bb01c2eb8e86c994c5b81c01d9ef7706 ""
   "C:/Users/sebas/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1702671244 31952 f4106b3c4d60f3798e7bc4db0c8e3183 ""
@@ -199,7 +199,7 @@
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "Logo-UTN-INSPT.png" 1702668701 15201 c48f9967dee09ab94e2dab62dc97bc14 ""
-  "c:/Users/sebas/Downloads/informe final seminario/main.tex" 1702924902 69657 80a678b766d45a1ab130fda9f0b8537c ""
+  "c:/Users/sebas/Downloads/informe final seminario/main.tex" 1702942807 76214 31cc3c27d54c3594920d22ea6ddcd492 ""
   "calificaciones para dbms.png" 1702668701 38329 1a4841e7a04ec1f792b74ef4be21564b ""
   "calificaciones para frameworks css.png" 1702668701 36880 6946301f1629fff716aa93b64d1e4291 ""
   "calificaciones para frameworks frontend.png" 1702668701 38616 54b98518b93adec3259cc3c32cab8013 ""
@@ -209,11 +209,11 @@
   "calificaciones para metodologias.png" 1702668701 40090 330d11a7d5f7b95e4f5c32f76953f824 ""
   "colectivo.png" 1702668701 406798 826bf063a8057da5f4435723a439674d ""
   "hospital.png" 1702668701 226465 a176fbff28ea2dee5dbd27b8e996dc57 ""
-  "main.aux" 1702924914 33109 62ec0f10367efd78f7fa423f7ed52b5d "pdflatex"
-  "main.bbl" 1702924727 217257 c48f1173c13a6c15945e808d7ed6a3bf "biber main"
-  "main.out" 1702924914 5389 e25490c5ee954666c1bfdab610d70fb7 "pdflatex"
-  "main.run.xml" 1702924914 2361 35d4ba219a86576031cb1c143b5e2c09 "pdflatex"
-  "main.tex" 1702924902 69657 80a678b766d45a1ab130fda9f0b8537c ""
+  "main.aux" 1702942832 33796 8eeaa183085ef6aa9ff18b64f59ef75a "pdflatex"
+  "main.bbl" 1702937639 228113 230a941aa73ba66fc4b7ce06d2d0c074 "biber main"
+  "main.out" 1702942832 5868 3cfb9f34e5d266d4da4d86dec8c0d898 "pdflatex"
+  "main.run.xml" 1702942832 2361 35d4ba219a86576031cb1c143b5e2c09 "pdflatex"
+  "main.tex" 1702942807 76214 31cc3c27d54c3594920d22ea6ddcd492 ""
   "most-used-web-frameworks-2021-survey-1-1024x576.png" 1702668701 88701 06220b43120884b4122bb4bb7dade8b9 ""
   "preguntados.png" 1702668701 47685 3b993c91d8f81139d7d56205d42c261a ""
   "sirhc editor de puesto.png" 1702668701 4419166 0525c83740da53cfaefe57ff43f68f7a ""
