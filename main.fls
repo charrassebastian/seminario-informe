@@ -354,6 +354,10 @@ INPUT C:\Users\sebas\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm144
 INPUT C:\Users\sebas\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\sebas\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1000.tfm
 INPUT C:\Users\sebas\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
+INPUT .\main.toc
+INPUT .\main.toc
+INPUT main.toc
+OUTPUT main.toc
 INPUT .\hospital.png
 INPUT .\hospital.png
 INPUT .\hospital.png
