@@ -75,11 +75,11 @@ Prof. Matías García}
 \newpage
 \section*{Resumen}
 
-En el presente trabajo se muestra las problemáticas, el desarrollo y los resultados de la implementación del Sistema Informativo para la Recepción del Hospital de Clínicas. Este sistema busca que los pacientes estén informados sobre qué puestos se encuentran libres para ser atendidos y que también cuenten con una trivia que les permita tener una espera más amena.
+En el presente trabajo se muestran las problemáticas, el desarrollo y los resultados de la implementación del Sistema Informativo para la Recepción del Hospital de Clínicas. Este sistema busca que los pacientes estén informados sobre qué puestos se encuentran libres para ser atendidos y que también cuenten con una trivia que les permita tener una espera más amena.
 
-Debido a la necesidad de saber si es posible pasar a un puesto para recibir atención o si es necesario esperar, contar con una pantalla que indique los puestos libres resulta algo conveniente en muchas instituciones, desde bancos y hospitales hasta locales de venta al público. En este caso, los principales beneficios son la disminución del tiempo perdido y simplificación del trabajo, ya que de no haber una pantalla con esta información, un empleado debería indicar en voz alta cada vez que un puesto se libere.
+Debido a la necesidad de saber si es posible pasar a un puesto para recibir atención o si por el contrario hay que esperar, contar con una pantalla que indique los puestos libres resulta algo conveniente en muchas instituciones, desde bancos y hospitales hasta locales de venta al público. En este caso, los principales beneficios son la disminución del tiempo perdido y simplificación del trabajo, ya que de no haber una pantalla con esta información, un empleado debería indicar en voz alta a los pacientes cada vez que un puesto se libere.
 
-Se realizó un extenso proceso de selección para elegir qué tecnologías usar para este desarrollo, dicho proceso se encuentra documentado en este trabajo. A su vez, las características del sistema producido y los resultados de su implementación se encuentran comprendidos en este informe.
+Se realizó un extenso proceso de selección para elegir qué tecnologías usar para este desarrollo, dicho proceso se encuentra documentado en este trabajo al igual que las características del sistema producido y los resultados de su implementación.
 \newpage
 \
 \newpage
@@ -89,13 +89,13 @@ In this text you will be able to read about the problems, the development and th
 
 Due to the necessity to know if it is possible to go to a spot in order to recieve attention or if it is necessary to wait, having a screen that marks which spots are free is convenient in many institutions, from banks and hospitals to retail businesses. In this case, the main benefits are the improvement in the use of time and the simplification of the work, since if there was no screen with this information, an employee would have to indicate to the patients each time a spot becomes available.
 
-A extensive selection process was performed to choose which technologies to use in this development, thatprocess is documented in the present work. Simmilarly, the characteristics of the produced system and the results of its implementation are present on this text.
+An extensive selection process was performed to choose which technologies to use for this development, that process is documented in the present work as well as the characteristics of the produced system and the results of its implementation.
 \newpage
 \
 \newpage
 \section*{Agradecimientos}
 
-Agradezco a mis padres, que me ayudaron a poder emprender mi formación académica.
+Agradezco a mis padres, que me ayudaron a poder emprender mi trayecto de formación académica.
 
 Agradezco a mis compañeros, con los cuales fuimos avanzando en las diversas asignaturas, dándonos ayuda cuando lo necesitabamos.
 
@@ -112,15 +112,15 @@ Y Agradezco a mis docentes, que me llevaron a descubrir nuevas ramas de conocimi
 \
 \newpage
 \section{Introducción}
-En los hospitales con frecuencia es necesario esperar para ser atendidos en la sección de recepción. Esto hace que en caso de no avisarse a los pacientes qué puestos se encuentran libres, estos esperen más tiempo que el necesario y así se use el tiempo de manera ineficiente.
+En los hospitales con frecuencia es necesario esperar para ser atendidos en la sección de recepción. Esto hace que en caso de no avisarse a los pacientes qué puestos se encuentran libres, estos esperen más tiempo que el necesario y así este se use de manera ineficiente.
 
-En lugar de requerir que haya una persona anunciando en voz alta cuando se libera un puesto, en la actualidad suelen usarse pantallas que indican los puestos libres y que pueden también dar información adicional a manera de recreación para los pacientes.
+En lugar de requerir que haya una persona anunciando en voz alta cuando se libera un puesto, en la actualidad suelen usarse pantallas que indican los puestos libres y que en ocasiones pueden también dar información adicional a manera de recreación para los pacientes.
 
 El presente trabajo busca eficientizar el uso del tiempo en la recepción para internación del Hospital de Clínicas al proveer una lista de los puestos libres que se actualice de forma automática, y a su vez mostrar una trivia con el propósito de volver más amena la espera.
 
 A lo largo del trabajo podrán observarse las implementaciones realizadas para otras instituciones de sistemas similares (Estado del Arte), cuales son los detalles de las problemáticas que se busca resolver (Definición del problema), que características posee la solución planteada (Solución propuesta), los resultados y las conclusiones.
 
-En el anexo se podrá ahondar en el analisis que se realizó a la hora de elegir las principales tecnologías y metodologías a usar.
+En el anexo se podrá ahondar en el analisis que se realizó a la hora de elegir las principales tecnologías y metodologías a usar. A su vez allí también se encuentran las instrucciones de uso y de instalación del sistema.
 \newpage
 \section{Estado del arte}
 En la actualidad se utilizan sistemas que cumplen al menos uno de los dos principales objetivos del proyecto en cuestión, ya sea indicar información relevante o brindar un medio para volver más ameno el momento.
@@ -135,7 +135,7 @@ Por ejemplo, en algunos hospitales se usa una pantalla para mostrar una lista co
 	\label{fig:hospital}
 \end{figure}
 \vspace{-1.0\baselineskip}
-Ahora bien, la implementación de pantallas para poder mostrar información en hospitales no siempre a generado resultados positivos. En los casos en que no fueron acompañadas por avisos sonoros, aquellos que sufran impedimentos visuales ya no pudieron saber cosas como dónde debían pasar a consultar ni a que sala les correspondía entrar. Las soluciones en ocasiones fueron pedir ayuda a auxiliares, atención del paciente u otros, quitando así la posibilidad de ser independientes a estos pacientes \parencite{pantallasChange}.
+Ahora bien, la implementación de pantallas para poder mostrar información en hospitales no siempre a generado resultados positivos. En los casos en que no fueron acompañadas por avisos sonoros, aquellos que sufrían de impedimentos visuales ya no pudieron saber cosas como dónde debían pasar a consultar ni a qué sala les correspondía entrar. Las soluciones en ocasiones fueron pedir ayuda a auxiliares, atención del paciente u otros, quitando así la posibilidad de ser independientes a estos pacientes \parencite{pantallasChange}.
 
 La utilización de pantallas no se limita a los hospitales únicamente, sino que otros sectores las han implementado para mostrar determinada información. Por ejemplo, en algunos locales de comida rápida pueden verse pantallas en la zona donde se retiran los pedidos que indican a quienes están esperando que ya se está realizando o que ya se puede retirar su orden. Para esto último pueden usar un número indicado en el tique de compra y otro para el puesto, lo cual es similar al caso de los hospitales en que se indica la sala a la cual pasar y el número asignado al turno.
 
@@ -149,7 +149,7 @@ De hecho, incluso en algunos colectivos pueden verse pantallas que muestran cont
 	\label{fig:preguntados}
 \end{figure}
 \vspace{-1.0\baselineskip}
-Dado que se busca usar una trivia para el proyecto en cuestión, se buscó información de un videojuego basado en dicho formato. El videojuego para celulares Preguntados es una trivia usada por millones de personas en el mundo, en especial en Latinoamérica, que permite competir contra amigos. Se contesta entre cuatro posibles respuestas sobre una temática dada (fig.~\ref{fig:preguntados}). Contiene algunas ayudas, como por ejemplo una bomba para eliminar dos respuestas erroneas y también una opción para cambiar de pregunta. \parencite{minutouno}. Contiene preguntas que pertenecen a categorías como Entretenimiento, Deportes, Arte, Historia, Literatura, Geografía, Ciencia y Tecnología \parencite{abcPreguntados}.
+Dado que se desea usar una trivia para el proyecto en cuestión, se buscó información de un videojuego basado en dicho formato. El videojuego para celulares Preguntados es una trivia usada por millones de personas en el mundo, en especial en Latinoamérica, que permite competir contra amigos. Se contesta entre cuatro posibles respuestas sobre una temática dada (fig.~\ref{fig:preguntados}). Contiene algunas ayudas, como por ejemplo una bomba para eliminar dos respuestas erroneas y también una opción para cambiar de pregunta. \parencite{minutouno}. Contiene preguntas que pertenecen a categorías como Entretenimiento, Deportes, Arte, Historia, Literatura, Geografía, Ciencia y Tecnología \parencite{abcPreguntados}.
 \begin{figure}[H]
 	\caption{Colectivo con pantalla que muestra información relevante}
     \begin{subfigure}{1.0\textwidth}
@@ -159,7 +159,7 @@ Dado que se busca usar una trivia para el proyecto en cuestión, se buscó infor
 	\label{fig:colectivo}
 \end{figure}
 \vspace{-1.0\baselineskip}
-Los ejemplos de sistemas vigentes actualmente muestran algunas formas en que se resolvieron problemáticas similares a las que se debió enfrentar el proyecto actual. Elementos como la trivia y las indicaciones para distribuir pacientes son necesarios para resolverlas, y también la provisión de una salida sonora para el sistema demostró ser necesaria para así volver dar más accesibilidad al sistema.
+Los ejemplos de sistemas vigentes actualmente muestran algunas formas en que se resolvieron problemáticas similares a las que debió enfrentar el proyecto actual. Elementos como la trivia y las indicaciones para distribuir pacientes son necesarios para resolverlas, y también la provisión de una salida sonora para el sistema demostró ser necesaria para así dar más accesibilidad al sistema.
 \newpage
 \section{Definición del problema}
 Antes de desarrollar el sistema planteado, existían múltiples problemas en el sector de espera para internación del Hospital de Clínicas.
@@ -173,9 +173,9 @@ Por último, al contar con un edificio de grandes proporciones, no es fácil sab
 De esta forma, con una pantalla, un sistema de audio y una computadora podían atenderse los tres problemas utilizando un sistema que indique los puestos libres, información sobre temas relevantes y una trivia referida a esos temas para volver más amena la espera.
 \newpage
 \section{Solución propuesta}
-Para dar una solución a los problemas vistos, se necesitó contar con una lista de puestos libres que sólo muestre aquellos a los cuales los pacientes puedan pasar. En caso de que todos se encuentren libres, en su lugar se optó por mostrar un único mensaje que lo indique. Si ninguno se encuentra libre se muestra también un único mensaje para indicarlo. Cuando un puesto se libera, esto se indica también mediante la salida de audio.
+Para dar una solución a los problemas vistos, se necesitó contar con una lista de puestos libres que sólo muestre aquellos a los cuales los pacientes puedan pasar. En caso de que ningún puesto esté libre, se optó por mostrar un único mensaje que lo indique. Cuando un puesto se libera u ocupa, la lista se actualiza y esto se refleja tanto en la pantalla como mediante una salida de audio, en caso de encontrarse habilitada.
 
-Para mostrar la trivia se eligió usar una parte de la pantalla, en la que se muestre primero un texto con información relevante, luego un enunciado con unas posibles respuestas, y un timer. Una vez terminado el tiempo, se indica la respuesta correcta y un texto que brinda información relevante.
+Para mostrar la trivia se eligió usar una parte de la pantalla, en la que aparezca primero un texto con información relevante y luego un enunciado con unas posibles respuestas. Una vez terminado el tiempo, se indica la respuesta correcta y aparece un texto que brinda la explicación.
 \newpage
 \subsection{Determinación de metodologías y tecnologías a utilizar}
 A la hora de determinar las metodologías y tecnologías que se usarán en el desarrollo del sistema, se debieron tener en cuenta ciertos factores que permitieran distinguir las mejores opciones de entre las demás. Para ello se prestó atención a los factores enumerados a continuación:
@@ -217,7 +217,7 @@ tipo obtuvo, y según esos totales se ordenan los productos. A veces hace falta
 comparar más detalladamente algún par de productos. Por ejemplo: 3*, 4\#, 2+ y 1| es 
 sin duda mejor que 2*, 5\#, 2+ y 1|, pero no está claro, a priori, si es mejor que 2* y 8\#. }
 \subsubsection{Metodologías}
-Para realizar el desarrollo del proyecto se deberán elegir algunas metodologías a seguir que permitan asegurar la calidad del sistema, el cumplimiento de objetivos y el uso eficaz del tiempo. A continuación se explican algunas metodologías de entre las cuales se deberán elegir aquellas que se van a usar.
+Para realizar el desarrollo del proyecto se deberán elegir algunas metodologías a seguir que permitan asegurar la calidad del sistema, el cumplimiento de objetivos y el uso eficaz del tiempo. A continuación se explican algunas metodologías de entre las cuales se elegirán aquellas que se van a usar.
 \begin{itemize}
     \item Kanban
     \item Test Driven Development
@@ -268,7 +268,7 @@ Al hacer un boceto, podría comenzarse a partir de un lienzo en blanco o de una 
 
 En cuanto a la dificultad de aprendizaje, si ya se cuenta con conocimientos de JavaScript, TypeScript no es muy difícil de aprender \parencite{freecodecampTs}. Si no se cuenta con los fundamentos de programación necesarios esto puede ser un desafío, mientras que en otros casos puede ser algo extremadamente sencillo \parencite{thecodebytes}. Ahora bien, sigue siendo más fácil de aprender JavaScript que TypeScript \parencite{isJsHardToLearn}.
 
-Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo mismo a los atributos de cada metodología, se llegó a la distribución que se muestra en la fig.~\ref{fig:lenguajesFrontend}.
+Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo mismo a los atributos de cada tecnología, se llegó a la distribución que se muestra en la fig.~\ref{fig:lenguajesFrontend}.
 \begin{figure}[H]
 	\caption{Calificaciones para lenguajes frontend}
     \begin{subfigure}{1\textwidth}
@@ -295,7 +295,7 @@ Tailwind permite crear diseños responsivos, y es sencillo de escribir y mantene
 
 Ahora bien, largas líneas de nombres descriptivos de clases de Tailwind pueden volverse difíciles de comprender, por lo que en producción pueden traer complicaciones para ser mantenidas \parencite{shiminZhang}. Este framework está enfocado en el rendimiento y busca usar el menor tamaño posible de archivos CSS generando solo aquel código que de verdad se usa en el proyecto \parencite{tailwindDocsOptimizing}.
 
-Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo mismo a los atributos de cada metodología, se llegó a la distribución que se muestra en la fig.~\ref{fig:frameworksCSS}.
+Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo mismo a los atributos de cada tecnología, se llegó a la distribución que se muestra en la fig.~\ref{fig:frameworksCSS}.
 \begin{figure}[H]
 	\caption{Calificaciones para frameworks para CSS}
     \begin{subfigure}{1\textwidth}
@@ -346,7 +346,7 @@ En Angular se usa una arquitectura basada en componentes que al ser fácilmente 
 
 Para quienes tienen conocimiento de JavaScript, React será más fácil y productivo, mientras que Vue resultará una mejor opción para principiantes \parencite{digitalya}. Vue.js es especialmente sencillo de usar para aplicaciones más pequeñas, pero cuando los proyectos se vuelven más complejos, depender únicamente de plantillas se torna cada vez más difícil, por lo que React resulta más fácil de usar para aplicaciones más grandes \parencite{stxnext}.
 
-Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo mismo a los atributos de cada metodología, se llegó a la distribución que se muestra en la fig.~\ref{fig:frameworksFrontend}.
+Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo mismo a los atributos de cada tecnología, se llegó a la distribución que se muestra en la fig.~\ref{fig:frameworksFrontend}.
 \begin{figure}[H]
 	\caption{Calificaciones para frameworks frontend}
     \begin{subfigure}{1\textwidth}
@@ -357,12 +357,12 @@ Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo
 \vspace{-1.0\baselineskip}
 Como resultado del proceso de selección detallado en el Anexo I, se determinó que React sería la opción elegida para el desarrollo del sistema.
 \subsubsection{Lenguaje de programación y framework backend}
-Para el desarrollo del lado del servidor (backend) se elegió entre los siguientes lenguajes de programación y frameworks:
+Para el desarrollo del lado del servidor (backend) se eligió entre los siguientes lenguajes de programación y frameworks:
 \begin{itemize}
     \item Java y Spring
     \item Node.js\textsuperscript{\textregistered} y Express.js
 \end{itemize}
-Java es un lenguaje de programación y plataforma para computación, lanzado inicialmente por Sun Microsystems en 1995 \parencite{whatIsJava}. Algunas de sus características son su orientación a objetos, portabilidad, rendimiento soporte para concurrencia mediante el uso de múltiples hilos de ejecución \parencite{featuresJava}.
+Java es un lenguaje de programación y plataforma para computación, lanzado inicialmente por Sun Microsystems en 1995 \parencite{whatIsJava}. Algunas de sus características son su orientación a objetos, portabilidad, rendimiento y soporte para concurrencia mediante el uso de múltiples hilos de ejecución \parencite{featuresJava}.
 
 Spring es el framework para desarrollo de aplicaciones para Java empresarial más usado. El objetivo de quienes lo utilizan es obtener code fácilmente testeable, reusable y con un rendimiento elevado. Es modular y da soporte a la inyección de dependencias \parencite{tutorialspointSpring}.
 
@@ -370,7 +370,7 @@ Node.js\textsuperscript{\textregistered} es un entorno de ejecución de JavaScri
 
 Express.js es un framework para Node.js\textsuperscript{\textregistered} diseñado para construir aplicaciones web y que se convirtió en el más usado para este entorno de ejecución. Es minimalista, rápido y muy fácil de usar \parencite{kinstaExpress}.
 
-Java es fácil de aprender y depurar ya que fue diseñado para también ser fácil de usar \parencite{ibmJava}. Esto es así aún siendo un lenguaje más complejo que JavaScript \parencite{lighthouselabsJavaVSJavscript}. Datos de encuestas de Stack Overflow muestran java ya no es el lenguaje más usado aunque permanece entre los más populares, pasando de un 41,1\% de uso en 2019 a un 33,27\% en 2022 \parencite{devmJava}. En cuanto al rendimiento, Java es bastante rápido pero utiliza mucha memoria \parencite{akkiJava}.
+Java es fácil de aprender y depurar ya que fue diseñado para también ser fácil de usar \parencite{ibmJava}. Esto es así aún siendo un lenguaje más complejo que JavaScript \parencite{lighthouselabsJavaVSJavscript}. Datos de encuestas de Stack Overflow muestran que Java ya no es el lenguaje más usado aunque permanece entre los más populares, pasando de un 41,1\% de uso en 2019 a un 33,27\% en 2022 \parencite{devmJava}. En cuanto al rendimiento, Java es bastante rápido pero utiliza mucha memoria \parencite{akkiJava}.
 
 Spring es muy usado para el desarrollo profesional con Java debido a su sencillez de uso, flexibilidad, documentación y soporte de la comunidad \parencite{flexipleJava}. Ahora bien, su curva de aprendizaje es empinada, por lo que resulta difícil para los desarrolladores relativamente inexpertos \parencite{adservio}. Al usar inyección de dependencias facilita el mantenimiento del código \parencite{turingSpring}.
 
@@ -378,7 +378,7 @@ Express.js permite manejar pedidos usando funciones modulares, pequeñas y mante
 
 Node.js\textsuperscript{\textregistered} es considerado el framework más usado por los desarrolladores en todo el mundo, según una encuesta del 2022 \parencite{statistaFrameworks}. El uso de funciones anónimas puede hacer que el código sea poco mantenible, por lo que es conveniente evitarlas y también estructurar las funciones callbacks \parencite{packtpub}. Incluso para un desarrollador Javascript Junior, Node.js\textsuperscript{\textregistered} se considera una tecnología que requiere menos esfuerzo y tiempo de aprendizaje \parencite{simplilearnNode}.
 
-Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo mismo a los atributos de cada metodología, se llegó a la distribución que se muestra en la fig.~\ref{fig:lenguajesFrameworksBackend}.
+Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo mismo a los atributos de cada tecnología, se llegó a la distribución que se muestra en la fig.~\ref{fig:lenguajesFrameworksBackend}.
 \begin{figure}[H]
 	\caption{Calificaciones para lenguajes y frameworks backend}
     \begin{subfigure}{1\textwidth}
@@ -403,11 +403,11 @@ PostgreSQL es un sistema gestor de base de datos objeto-relacional con un buen r
 
 MongoDB puede manejar grandes cantidades de datos sin estructurar mucho más rápido que MySQL y PostgreSQL, pero tiene un alto consumo de memoria e incluso puede tener algún problema ocasional de velocidad en entornos en la nube \parencite{mongoMysqlComparison}. En este sistema cada documento se almacena en la base de datos junto a objetos de datos relacionados y encapsulados juntos, lo que permite extraer datos con una única operación. De esta forma MongoDB aumenta el rendimiento, la velocidad y la sencillez de mantenimiento \parencite{vsoftconsultingMongo}.
 
-Se considera que MySQL es confiable y mantenible, lo que permite que los administradores de bases de datos no tengan que perder tiempo solucionando problemas de rendimiento y de tiempo de inactividad \parencite{dbquestMysql}. El lenguaje SQL, usado por MySQL y PostreSQL para acceder a las bases de datos, es fácil de aprender, pudiendo a prenderse en pocas semanas en caso de contar con conocimientos de programación previos \parencite{thinkfulSql}.
+Se considera que MySQL es confiable y mantenible, lo que permite que los administradores de bases de datos no tengan que perder tiempo solucionando problemas de rendimiento y de tiempo de inactividad \parencite{dbquestMysql}. El lenguaje SQL, usado por MySQL y PostreSQL para acceder a las bases de datos es fácil de aprender, pudiendo tomar unas pocas semanas en caso de contar con conocimientos de programación previos \parencite{thinkfulSql}.
 
 PostgreSQL tiene bajos costos operativos, es fácil de usar y de mantener \parencite{topcoderPostgresql}. Su cuota de mercado es de 17,32\%, mientras que la de MySQL es de 44,68\% \parencite{marketShareDb}.
 
-Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo mismo a los atributos de cada metodología, se llegó a la distribución que se muestra en la fig.~\ref{fig:dbms}.
+Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo mismo a los atributos de cada tecnología, se llegó a la distribución que se muestra en la fig.~\ref{fig:dbms}.
 \begin{figure}[H]
 	\caption{Calificaciones para Sistemas Gestores de Base de Datos}
     \begin{subfigure}{1\textwidth}
@@ -435,9 +435,9 @@ Mocha es un framework de testing para JavaScript repleto de características que
 
 En cuanto a la aplicabilidad, Jest, Mocha y Jasmine pueden ser usados para testear el código escrito en JavaScript, mientras que JUnit está destinado a testear el código escrito en Java. Esto implica que en el lado del cliente podían ser usados cualquiera de los tres primeros, mientras que en el backend se debería elegir entre ellos o JUnit dependiendo del lenguaje de programación seleccionado previamente.
 
-En cuanto al grado de adopción, \textcite{stateofjsTesting} indican que 68\% de los encuestados usaron Jest, 53\% Mocha y 42\% Jasmine durante 2020. Por otra parte, JUnit es uno de los frameworks de testing para Java mas populares \parencite{headspinJUnit}.
+En cuanto al grado de adopción, \textcite{stateofjsTesting} indican que 68\% de los encuestados usaron Jest, 53\% Mocha y 42\% Jasmine durante 2020. Por otra parte, JUnit es uno de los frameworks de testing para Java más populares \parencite{headspinJUnit}.
 
-Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo mismo a los atributos de cada metodología, se llegó a la distribución que se muestra en la fig.~\ref{fig:testing}.
+Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo mismo a los atributos de cada tecnología, se llegó a la distribución que se muestra en la fig.~\ref{fig:testing}.
 \begin{figure}[H]
 	\caption{Calificaciones para frameworks para testing}
     \begin{subfigure}{1\textwidth}
@@ -449,26 +449,26 @@ Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo
 Como resultado del proceso de selección detallado en el Anexo I, se determinó que Jest sería la opción elegida para el desarrollo del sistema.
 \newpage
 \subsection{Análisis de requisitos}
-El sistema consta de dos requisitos principales: en primer lugar, aportar información sobre qué puestos se encuentran libres, actualizandose de manera automática y permitiendo a quienes lo controlen modificar dicha información; y en segundo lugar, brindar un método de recreación a través de una trivia, la cual también deberá ser editable por quienes controlen el sistema.
+El sistema consta de dos requisitos principales: en primer lugar, aportar información sobre qué puestos se encuentran libres, actualizándose de manera automática y permitiendo a quienes lo controlen modificar dicha información; y en segundo lugar, brindar un método de recreación a través de una trivia, la cual también deberá ser editable por quienes controlen el sistema.
 
-Por lo tanto, resulta necesario contar con la forma de efectuar altas, bajas, modificaciones y consultas para los registros de ambas partes del sistema, las cuales funcionarán gracias a la interacción entre el cliente web, el servidor y la base de datos, la cual almacenará información tanto de los puestos como de la triva.
+Por lo tanto, resulta necesario contar con la forma de efectuar altas, bajas, modificaciones y consultas para los registros de ambas partes del sistema, las cuales funcionarán gracias a la interacción entre el cliente web, el servidor y la base de datos, que almacenará información tanto de los puestos como de la trivia.
 
-A continuación se detallarán con mayor detalle los requisitos de la sección de trivia y de la correspondiente para los puestos libres y sus editores.
+A continuación se indicarán con mayor detalle los requisitos de la sección de trivia y de la correspondiente para los puestos libres y sus editores.
 \subsubsection{Puestos}
 Para que quienes estén esperando para ir a un puesto necesitan una forma para saber si hay puestos libres y cuáles son. Para ello en la pantalla principal se requiere mostrar los nombres de los puestos libres, y dar esa información también a través de una salida de audio.
 
-Esta información debe actualizarse automáticamente y reflejar los datos ingresados por quienes controlen el sistema, que en principio deberían ser los empleados que ocupen los puestos, además de su jefe o encargado del sistema. Esos datos deben poder ingresarse con una interfaz de usuario que permita ocupar o liberar puestos de una manera sencilla y rápida, minimizando la curva de aprendizaje. 
+Esta información debe actualizarse automáticamente y reflejar los datos ingresados por quienes controlen el sistema, que en principio deberían ser los empleados que ocupen los puestos, además de su jefe o el encargado del sistema. Esos datos deben poder ingresarse con una interfaz de usuario que permita ocupar o liberar puestos de una manera sencilla y rápida, minimizando la curva de aprendizaje. 
 
-Además, en caso de querer agregar o quitar puestos, o simplemente contar con un editor más elaborado, una interfaz alternativa, más avanzada es necesaria. De esta forma al usar por primera vez el sistema se podrán agregar los puestos y editar su información desde el editor de puestos avanzado, y una vez configurado los empleados podrán usar el editor simple para indicar cuando sus puestos se libern u ocupen.
+Además, en caso de querer agregar o quitar puestos, o simplemente contar con un editor más elaborado, una interfaz alternativa y más avanzada es necesaria. De esta forma al usar por primera vez el sistema se podrán agregar los puestos y editar su información desde el editor de puestos avanzado, y una vez configurado los empleados podrán usar el editor simple para indicar cuando sus puestos se liberen u ocupen.
 
-Los datos deberán guardarse en una base de datos de tal forma que los mismos queden almacenados de forma persistente. En caso de apagarse la computadora en la cual corra la  base de datos, los mismos no se perderán, contrario a lo que ocurriría en caso de almacenarse en la memoria RAM.
+Los datos deberán guardarse en una base de datos para que los mismos queden almacenados de forma persistente. En caso de apagarse la computadora en la cual corra la base de datos, estos no se perderán, contrario a lo que ocurriría en caso de almacenarse en la memoria RAM.
 \subsubsection{Trivia}
 La trivia constará de preguntas con varias respuestas posibles, algunas correctas y otras incorrectas, y una explicación de por qué son correctas las respuestas así indicadas. Contar con animaciones para las transiciones entre preguntas y respuestas resulta apropiado para dar una mejor experiencia al usuario. Las trivias se podrán ver desde la pantalla principal junto con los puestos.
 
 Cada trivia podrá ser ingresada por los encargados del sistema. Deberá proveerse una interfaz de usuario que permita también eliminar trivias y editarlas, modificando campos como la pregunta, las respuestas, cuáles son correctas y la explicación.
 \newpage
 \subsection{Especificaciones del sistema}
-Para la base de datos se optó por usar MongoDB. Esto implicó que la conexión entre el servidor y la base de datos se realice a través de Mongoose. Este servidor se implementó con tecnologías basadas en JavaScript, como NodeJS\textsuperscript{\textregistered} y Express.js. El testing se realizó usando Jest. Para permitir el despliegue usando contenedores se usó Docker junto con Kubernetes.
+Para la base de datos se optó por usar MongoDB. Esto implicó que la conexión entre el servidor y la base de datos se realice a través de Mongoose. Este servidor se implementó con tecnologías basadas en JavaScript, como NodeJS\textsuperscript{\textregistered} y Express.js. El testing se realizó usando Jest. Para posibilitar el despliegue usando contenedores se usó Docker junto con Kubernetes.
 
 Para el frontend se eligió crear un cliente web que fuera accesible desde un navegador de internet. Al igual que en el backend se usaron tecnologías basadas en JavaScript, en este caso React junto con Fluent UI, Tailwind y Vite.
 \newpage
@@ -487,9 +487,9 @@ En cuanto al frontend, su principal componente incluye tanto una sección para v
 
 El editor simple para puestos permite elegir a través de una lista desplegable el puesto a modificar y con un botón pasar su estado de libre a ocupado.
 
-El editor avanzado para puestos permite agregar, quitar y editar puestos. Los datos que permite modificar son los nombres y las disponibilidades de cada puesto.
+El editor avanzado para puestos permite agregar, quitar y editar puestos. Los datos que permite modificar son los nombres y la disponibilidad de cada puesto.
 
-El editor de trivias permite agregar, quitar y editar trivias. En cada trivia pueden modificarse la pregunta, la explicación, las respuestas y la validez de cada una.
+El editor de trivias permite agregar, quitar y editar trivias. En cada trivia puede modificarse la pregunta, la explicación, las respuestas y la validez de cada una.
 \newpage
 \section{Resultados}
 El sistema implementado consta de los componentes descriptos anteriormente, por lo que en esta sección podrán verse el aspecto que tomaron, detalles sobre su funcionalidad y características finales.
@@ -503,7 +503,7 @@ En la pantalla principal (fig.~\ref{fig:pantallaPrincipal}), ideada para usarse 
 	\label{fig:pantallaPrincipal}
 \end{figure}
 \vspace{-1.0\baselineskip}
-En el editor de puesto (fig.~\ref{fig:editorPuesto}), pensado para que cada empleado encargado de un puesto, permite que se elija un puesto y se indique su liberación u ocupación, lo cual se ve reflejado en la pantalla principal que se actualiza automáticamente.
+En el editor de puesto (fig.~\ref{fig:editorPuesto}), pensado para ser usado por cada empleado encargado de un puesto, permite que se elija un puesto y se indique su liberación u ocupación, lo cual se ve reflejado en la pantalla principal que se actualiza de manera automática.
 \begin{figure}[H]
 	\caption{Editor de puesto}
     \begin{subfigure}{1\textwidth}
@@ -532,9 +532,9 @@ En el editor de trivias (fig.~\ref{fig:editorTrivias}), necesario para un admini
 \vspace{-1.0\baselineskip}
 Se incluyó un fondo de pantalla para las interfaz de usuario para que la misma tuviera un mejor aspecto visual, el mismo en primera instancia se intentó que estuviera relacionado con la medicina o incluso el mismo Hospital de Clínicas, sin embargo al dar un aspecto poco conveniente se optó por un fondo que, aunque pudiera parecer fuera de lugar (lo mismo podría decirse de la trivia, que es en realidad una funcionalidad fundamental del sistema), brinda un aspecto más ameno a una interfaz que, de otra forma, podría verse desagradable.
 
-Al incluirse en el repositorio ubicado en: \href{https://github.com/charrassebastian/sirhc}{https://github.com/charrassebastian/sirhc} se encuentra tanto el código como también archivos de configuración para realizar el despliegue con Docker y Kubernetes.
+En el repositorio ubicado en el siguiente enlace: \href{https://github.com/charrassebastian/sirhc}{https://github.com/charrassebastian/sirhc} se encuentra tanto el código del sistema como también archivos de configuración para realizar el despliegue con Docker y Kubernetes.
 
-Al usar contenedores se pueden aislar las capas del sistema (cliente, servidor y base de datos). Para contar con una versión disponible como parte de un portfolio de proyectos, en un servidor presente en una red local se realizó un despliegue aprovechando las tecnologías Docker y Kubernetes, y que al momento de redactar este informe puede accederse a través del siguiente enlace: \href{https://sirhc.sebastiancharras.tech}{https://sirhc.sebastiancharras.tech}.
+Al usar contenedores se pueden aislar las capas del sistema (cliente, servidor y base de datos). Para contar con una versión disponible como parte de un portafolio de proyectos, en un servidor presente en una red local se realizó un despliegue aprovechando las tecnologías Docker y Kubernetes, y que al momento de redactar este informe puede accederse a través del siguiente enlace: \href{https://sirhc.sebastiancharras.tech}{https://sirhc.sebastiancharras.tech}.
 
 Los tests implementados para la API permiten contar con un mayor grado de confianza en el sistema, asegurando el buen funcionamiento de esta parte esencial del backend, necesaria para que pueda usarse sin problemas. El testing no incluyó, por ejemplo, a los componentes del cliente, sino que se centró exclusivamente en la API, particularmente en el servidor.
 
@@ -543,11 +543,11 @@ La base de datos usa MongoDB, para lo que puede aprovecharse la imagen oficial d
 \section{Conclusiones}
 La experiencia de desarrollo fue enriquecedora, contribuyendo a adquirir y reforzar conocimientos en diversas áreas del desarrollo, tanto sobre tecnologías como de metodologías.
 
-Una de las cosas más importantes fue lo aprendido sobre la metodología Test Driven Development. Esta pone su foco en crear tests unitarios para cada código escrito, incluso escribiendo los tests antes que las implementaciones. De esta forma se asegura la calidad del producto, previniendo la entrega de productos defectuosos.
+Una de las cosas más importantes fue lo aprendido sobre la metodología Test Driven Development. Esta pone su foco en crear tests unitarios para cada código escrito, incluso escribiendo los tests antes que las implementaciones. De esta forma se asegura la calidad, previniendo la entrega de productos defectuosos.
 
-Ahora bien, aunque sea muchas veces vista de una manera muy positiva debido a las razones ya mencionadas, esta metodología de desarrollo puede llevar a que se tome más tiempo en crear un programa que realizando un uso menos frecuente de tests. Durante el desarrollo de este sistema, utilizar esta metodología en frontend demostró ser particularmente complejo en comparación con su uso en el backend, lo que llevó a que se decidiera enfocar la escritura de tests en asegurar el buen funcionamiento de la API, dejando de lado, entre otras cosas, el testeo de los componentes del frontend.
+Ahora bien, aunque sea muchas veces vista de una manera muy positiva debido a las razones ya mencionadas, esta metodología de desarrollo puede llevar a que se tome más tiempo en crear un programa que realizando un uso menos frecuente de tests. Durante el desarrollo de este sistema, utilizar esta metodología en frontend demostró ser particularmente complejo en comparación con su uso en el backend, lo que llevó a que se decidiera enfocar la escritura de tests en asegurar el buen funcionamiento de la API, dejando de lado el testeo de los componentes del frontend.
 
-Por otra parte, las tecnologías usadas contribuyeron a la creación del sistema sin requerir cantidades de tiempo de aprendizaje demasiado grandes. Su sencillez de uso y amplia documentación, así como la extensa cantidad de bibliotecas disponibles hicieron que la implementación del sistema se realizara de una manera rápida.
+Por otra parte, las tecnologías usadas contribuyeron a la creación del sistema sin requerir cantidades de tiempo de aprendizaje demasiado grandes. Su sencillez de uso y amplia documentación, así como la extensa cantidad de bibliotecas disponibles hicieron que la implementación del sistema se llevara a cabo de una manera rápida.
 
 Aunque la cantidad de tecnologías y de metodologías en las que se tuvo que ahondar para realizar el desarrollo fue mayor que en otros proyectos realizados, las elecciones tomadas hicieron que esto no llevara a un atraso en los tiempos de desarrollo ni a una merma en las características implementadas. Los nuevos conocimientos adquiridos y la experiencia con la metodología Test Driven Development son algunas de las cosas más útiles que se obtuvieron en este proyecto.
 \newpage
@@ -625,7 +625,7 @@ Al elaborar el ranking, los resultados fueron los siguientes:
     \item Test Driven Development - 1E, 1* y 1
     \item Desarrollo en cascada - 1E, 1+ y 1|
 \end{itemize}
-Por la escaza capacidad de adaptación a cambios de requerimientos del desarrollo en cascada, quedó en evidencia la necesidad de excluirla a la hora de desarrollar el sistema. Kanban y Test Driven development resultaron ser según el criterio aplicado las metodologías más apropiadas, por lo que se elegio usar ambas en el desarrollo del sistema.
+Por la escaza capacidad de adaptación a cambios de requerimientos del desarrollo en cascada, quedó en evidencia la necesidad de excluirla a la hora de desarrollar el sistema. Kanban y Test Driven development resultaron ser según el criterio aplicado las metodologías más apropiadas, por lo que se elegió usar ambas en el desarrollo del sistema.
 \subsubsection{Selección de lenguajes frontend}
 Al momento de seleccionar entre ambos lenguajes se optó por otorgar los siguientes pesos a los atributos a considerar:
 \begin{itemize}
@@ -673,7 +673,7 @@ El ranking quedó de la siguiente forma:
     \item JavaScript - 1* y 1|
     \item TypeScript - 1\# y 1+
 \end{itemize}
-La ventaja de TypeScript en cuanto a mantenibilidad por sobre JavaScript permitió compensar su menor sencillez de uso, por lo que entregó un resultado más equilibrado. La importancia otorgada a la sencillez de uso era mayor que la dada a la mantenibilidad, por lo que si bien ambas opciones eran buenas candidatas para el  desarrollo en cuestión, se optó por usar JavaScript.
+La ventaja de TypeScript en cuanto a mantenibilidad por sobre JavaScript permitió compensar su menor sencillez de uso, por lo que entregó un resultado más equilibrado. La importancia otorgada a la sencillez de uso era mayor que la dada a la mantenibilidad, por lo que si bien ambas opciones eran buenas candidatas para el desarrollo en cuestión, se optó por usar JavaScript.
 \subsubsection{Selección de framework para CSS}
 Al momento de optar por una de las dos opciones, a los atributos a considerar se les asignaron los siguientes símbolos como pesos:
 \begin{itemize}
@@ -704,7 +704,7 @@ Tailwind
     \item Dificultad de aprendizaje - +
     \item Aplicabilidad - E
 \end{itemize}
-Los atributos sencillez de uso, grado de adopción, rendimiento y aplicabilidad recibieron pesos idénticos para ambas tecnologías, por lo que debieron eliminarse, dando lugar a los siguientes resultados:
+Los atributos de sencillez de uso, grado de adopción, rendimiento y aplicabilidad recibieron pesos idénticos para ambas tecnologías, por lo que debieron eliminarse, dando lugar a los siguientes resultados:
 
 Bootstrap
 \begin{itemize}
@@ -809,7 +809,7 @@ Node.js\textsuperscript{\textregistered} y Express.js
     \item Dificultad de aprendizaje - +
     \item Aplicabilidad - E
 \end{itemize}
-Los atributos de grado de adopción, rendimiento, dificultad de aprendizaje y aplicabilidad recibieron pesos idénticos, por lo que debieron elimiarse, dando lugar a los próximos resultados:
+Los atributos de grado de adopción, rendimiento, dificultad de aprendizaje y aplicabilidad recibieron pesos idénticos, por lo que debieron eliminarse, dando lugar a los próximos resultados:
 
 Java y Spring
 \begin{itemize}
@@ -972,16 +972,16 @@ Al liberarse u ocuparse puestos, la lista de puestos libres se actualiza sin nec
 
 La sección de trivias va mostrando las distintas trivias que hay guardadas en el sistema, alternando entre pregunta y opciones de respuesta, y la explicación con las respuestas correctas.
 
-La pantalla del editor de puesto permite que alguien que está atendiendo en un puesto indique cuando supuesto se ocupe o se libere. Conforme se vayan ocupando y liberando puestos, la pantalla principal actualizará la lista de puestos libres y también informará la nueva lista en caso de estar habilitada la salida sonora. Tiene un selector de puesto y un botón para alternar su estado entre ocupado y liberado.
+La pantalla del editor de puesto permite que alguien que está atendiendo en un puesto indique cuando su puesto se ocupe o se libere. Conforme se vayan ocupando y liberando puestos, la pantalla principal actualizará la lista de puestos libres y también informará sobre la nueva lista audiblemente en caso de estar habilitada la salida sonora. Tiene un selector de puesto y un botón para alternar su estado entre ocupado y liberado.
 
 La pantalla del editor de puestos avanzado permite modificar el nombre y la disponibilidad de cada puesto, agregar más puestos y quitar los ya existentes. Antes de editar un puesto es necesario presionar en el botón Editar de dicho puesto.
 
 La pantalla del editor de trivia permite agregar y remover trivias, y también editar cada trivia. Al presionar el botón Editar, se habilitan las opciones para modificar la pregunta, explicación y respuestas (tanto su texto y si son correctas como su cantidad, pudiendo agregar o remover opciones).
 \newpage
 \subsection{Manual de instalación}
-A continuación se mostrará cómo puede configurarse el sistema para que pueda funcionar y cuales son sus requisitos.
+A continuación se mostrará cómo puede configurarse el sistema para que este funcione y cuáles son sus requisitos.
 
-Este sistema está pensado para correr en una computadora principal que actuará como servidor y otras (una por puesto) que se encuentren conectadas en la misma red local de internet.
+Este sistema está pensado para correr en una computadora principal que actuará como servidor y en otras (una por puesto) que se encuentren conectadas en la misma red local de internet.
 
 El servidor deberá correr, preferentemente, un sistema basado en Linux, en este caso se darán las instrucciones para Ubuntu 22.04.
 
@@ -1030,7 +1030,7 @@ kubectl apply -f deployment.yaml
 
 kubectl apply -f service.yaml
 
-Ahora que las configuraciones para el frontend ya se han aplicado, hay que configurar el frontend. Abrir dentro del directorio sirhc  el subdirectorio frontend y ejecutar:
+Ahora que las configuraciones para el frontend ya se han aplicado, hay que configurar el frontend. Abrir dentro del directorio sirhc el subdirectorio frontend y ejecutar:
 
 kubectl apply -f sirhc-frontend-deployment.yaml
 
@@ -1048,7 +1048,7 @@ ip a
 
 Esta dirección IP deberá usarse desde los navegadores de internet que vayan a acceder al sistema. Es importante que las computadoras que se conecten se encuentren en la misma red local, ya que de lo contrario no podrán hacer uso del sistema.
 
-Ahora al ingresar al navegador de internet la url con el formato:
+Ahora se puede ingresar al navegador de internet la url con el formato:
 
 \href{http://localhost:8080}{http://localhost:8080}
 
