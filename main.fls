@@ -1,6 +1,6 @@
-PWD c:\Users\sebas\Downloads\informe final seminario
+PWD c:\Users\sebas\seminario-informe
 INPUT C:\Users\sebas\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\sebas\Downloads\informe final seminario\main.tex
+INPUT c:\Users\sebas\seminario-informe\main.tex
 OUTPUT main.log
 INPUT C:\Users\sebas\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\sebas\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls

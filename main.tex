@@ -130,7 +130,7 @@ Por ejemplo, en algunos hospitales se usa una pantalla para mostrar una lista co
 	\caption{Hospital con pantalla para distribuir pacientes}
     \begin{subfigure}{1.0\textwidth}
 	\includegraphics[width=0.8\textwidth]{hospital.png}
-	\subcaption*{\textit{Nota.} \citeauthor{pantallasChange}}
+	\subcaption*{\textit{Nota:} Extraída de \citeauthor{pantallasChange} (s.f.)}
     \end{subfigure}
 	\label{fig:hospital}
 \end{figure}
@@ -144,7 +144,7 @@ De hecho, incluso en algunos colectivos pueden verse pantallas que muestran cont
 	\caption{Preguntados}
     \begin{subfigure}{1.0\textwidth}
 	\includegraphics[width=0.4\textwidth]{preguntados.png}
-	\subcaption*{\textit{Nota.} \citeauthor{playStorePreguntados}}
+	\subcaption*{\textit{Nota:} Extraída de \citeauthor{playStorePreguntados} (s.f.)}
     \end{subfigure}
 	\label{fig:preguntados}
 \end{figure}
@@ -154,7 +154,7 @@ Dado que se desea usar una trivia para el proyecto en cuestión, se buscó infor
 	\caption{Colectivo con pantalla que muestra información relevante}
     \begin{subfigure}{1.0\textwidth}
 	\includegraphics[width=0.8\textwidth]{colectivo.png}
-	\subcaption*{\textit{Nota.} \citeauthor{lacapitalColectivos}}
+	\subcaption*{\textit{Nota:} Extraída de \citeauthor{lacapitalColectivos} (s.f.)}
     \end{subfigure}
 	\label{fig:colectivo}
 \end{figure}
@@ -326,7 +326,7 @@ Diferentes encuestas muestran resultados de uso distintos de cada una de estas t
 	\caption{Uso de las principales tecnologías desde 2016 hasta 2021}
     \begin{subfigure}{1.0\textwidth}
 	\includegraphics[width=0.8\textwidth]{vue-usage-from-2016-to-2021.png}
-	\subcaption*{\textit{Nota.} 2022 Stack Overflow Survey.}
+	\subcaption*{\textit{Nota:} Extraída de Stack Overflow Survey (2022)}
     \end{subfigure}
 	\label{fig:stackOverflowSurvey}
 \end{figure}
@@ -336,11 +336,11 @@ Diferentes encuestas muestran resultados de uso distintos de cada una de estas t
 	\caption{10 Frameworks Web más usados en 2021}
     \begin{subfigure}{1.0\textwidth}
 	\includegraphics[width=0.9\textwidth]{most-used-web-frameworks-2021-survey-1-1024x576.png}
-	\subcaption*{\textit{Nota.} Jet Brains Survey of 183 countries/regions 2021.}
+	\subcaption*{\textit{Nota:} Extraída de Jet Brains Survey of 183 countries/regions (2021)}
     \end{subfigure}
 	\label{fig:jetBrainsSurvey}
 \end{figure}
-\vspace{-2.0\baselineskip}
+\vspace{-1.0\baselineskip}
 
 En Angular se usa una arquitectura basada en componentes que al ser fácilmente reemplazables permiten mantener el código de una manera más simple, y el basarse en TypeScript también contribuye a que esta tarea sea más amena. \parencite{altexsoftAngular}. Por otra parte, Vue.js cuenta con su Composition API que permite manejar el estado y la lógica en componentes de una forma flexible y modular, lo que mejora su mantenibilidad \parencite{theodosiou}.
 
@@ -439,7 +439,7 @@ En cuanto al grado de adopción, \textcite{stateofjsTesting} indican que 68\% de
 
 Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo mismo a los atributos de cada tecnología, se llegó a la distribución que se muestra en la fig.~\ref{fig:testing}.
 \begin{figure}[H]
-	\caption{Calificaciones para frameworks para testing}
+	\caption{Gráfico de calificaciones de frameworks para hacer testing del código}
     \begin{subfigure}{1\textwidth}
 	\includegraphics[width=1\textwidth]{calificaciones para frameworks para testing.png}
     \end{subfigure}
@@ -496,7 +496,7 @@ El sistema implementado consta de los componentes descriptos anteriormente, por 
 
 En la pantalla principal (fig.~\ref{fig:pantallaPrincipal}), ideada para usarse en una pantalla que sea vista por quienes estén esperando para pasar a un puesto libre, muestra aquellos puestos que estén libres y la sección de la trivia.
 \begin{figure}[H]
-	\caption{Pantalla principal del sistema}
+	\caption{Interfaz de la pantalla principal del sistema}
     \begin{subfigure}{1\textwidth}
 	\includegraphics[width=1\textwidth]{sirhc pantalla principal.png}
     \end{subfigure}
@@ -505,7 +505,7 @@ En la pantalla principal (fig.~\ref{fig:pantallaPrincipal}), ideada para usarse 
 \vspace{-1.0\baselineskip}
 En el editor de puesto (fig.~\ref{fig:editorPuesto}), pensado para ser usado por cada empleado encargado de un puesto, permite que se elija un puesto y se indique su liberación u ocupación, lo cual se ve reflejado en la pantalla principal que se actualiza de manera automática.
 \begin{figure}[H]
-	\caption{Editor de puesto}
+	\caption{Interfaz del editor de puesto}
     \begin{subfigure}{1\textwidth}
 	\includegraphics[width=1\textwidth]{sirhc editor de puesto.png}
     \end{subfigure}
@@ -514,7 +514,7 @@ En el editor de puesto (fig.~\ref{fig:editorPuesto}), pensado para ser usado por
 \vspace{-1.0\baselineskip}
 En el editor de puestos avanzado (fig.~\ref{fig:editorPuestosAvanzado}), necesario para un administrador del sistema, permite no solo liberar y ocupar puestos sino también cambiar sus nombres, agregar e incluso remover puestos.
 \begin{figure}[H]
-	\caption{Editor de puestos avanzado}
+	\caption{Interfaz del editor de puestos avanzado}
     \begin{subfigure}{1\textwidth}
 	\includegraphics[width=1\textwidth]{sirhc editor de puestos avanzado.png}
     \end{subfigure}
@@ -523,7 +523,7 @@ En el editor de puestos avanzado (fig.~\ref{fig:editorPuestosAvanzado}), necesar
 \vspace{-1.0\baselineskip}
 En el editor de trivias (fig.~\ref{fig:editorTrivias}), necesario para un administrador del sistema, se pueden agregar, eliminar y editar trivias. Entre los campos que pueden editarse se encuentran las preguntas, respuestas y explicaciones de las trivias.
 \begin{figure}[H]
-	\caption{Editor de trivias}
+	\caption{Interfaz del editor de trivias}
     \begin{subfigure}{1\textwidth}
 	\includegraphics[width=1\textwidth]{sirhc editor de trivias.png}
     \end{subfigure}
