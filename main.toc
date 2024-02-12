@@ -30,8 +30,8 @@
 \contentsline {subsubsection}{\numberline {9.1.6}Selección de Sistema Gestor de Base de Datos}{52}{subsubsection.9.1.6}%
 \contentsline {subsubsection}{\numberline {9.1.7}Selección de framework para testing}{54}{subsubsection.9.1.7}%
 \contentsline {subsection}{\numberline {9.2}Manual de uso}{56}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Manual de instalación}{57}{subsection.9.3}%
-\contentsline {subsubsection}{\numberline {9.3.1}Requisitos}{57}{subsubsection.9.3.1}%
-\contentsline {subsubsection}{\numberline {9.3.2}Iniciar minikube}{57}{subsubsection.9.3.2}%
-\contentsline {subsubsection}{\numberline {9.3.3}Aplicar configuraciones de kubernetes}{57}{subsubsection.9.3.3}%
-\contentsline {subsubsection}{\numberline {9.3.4}Hacer accesible el sistema}{58}{subsubsection.9.3.4}%
+\contentsline {subsection}{\numberline {9.3}Manual de instalación}{59}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}Requisitos}{59}{subsubsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.2}Iniciar minikube}{59}{subsubsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.3}Aplicar configuraciones de kubernetes}{59}{subsubsection.9.3.3}%
+\contentsline {subsubsection}{\numberline {9.3.4}Hacer accesible el sistema}{60}{subsubsection.9.3.4}%
