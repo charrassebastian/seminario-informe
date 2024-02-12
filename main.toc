@@ -33,5 +33,5 @@
 \contentsline {subsection}{\numberline {9.3}Manual de instalación}{59}{subsection.9.3}%
 \contentsline {subsubsection}{\numberline {9.3.1}Requisitos}{59}{subsubsection.9.3.1}%
 \contentsline {subsubsection}{\numberline {9.3.2}Iniciar minikube}{59}{subsubsection.9.3.2}%
-\contentsline {subsubsection}{\numberline {9.3.3}Aplicar configuraciones de kubernetes}{59}{subsubsection.9.3.3}%
-\contentsline {subsubsection}{\numberline {9.3.4}Hacer accesible el sistema}{60}{subsubsection.9.3.4}%
+\contentsline {subsubsection}{\numberline {9.3.3}Aplicar configuraciones de kubernetes}{60}{subsubsection.9.3.3}%
+\contentsline {subsubsection}{\numberline {9.3.4}Hacer accesible el sistema}{62}{subsubsection.9.3.4}%

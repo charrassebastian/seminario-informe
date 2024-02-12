@@ -1043,10 +1043,30 @@ Para poder ver el estado de las capas del sistema se puede luego ejecutar el pr�
 
 minikube dashboard
 
+Este comando abrirá en un navegador de internet una interfaz como la que puede observarse en la figura~\ref{fig:kubernetesDashboard}.
+\begin{figure}[H]
+	\caption{Interfaz del dashboard de Kubernetes}
+    \begin{subfigure}{1\textwidth}
+	\includegraphics[width=1\textwidth]{kubernetesDashboard.png}
+    \end{subfigure}
+	\label{fig:kubernetesDashboard}
+\end{figure}
+\vspace{-1.0\baselineskip}
+
 \subsubsection{Aplicar configuraciones de kubernetes}
 Es necesario aplicar las configuraciones del backend, frontend y la base de datos, para ello hay que primero clonar el repositorio del sistema:
 
 git clone https://github.com/charrassebastian/sirhc
+
+Los archivos de configuraciones tendrán un contenido similar al que puede observarse en la figura~\ref{fig:configuracionKubernetes}.
+\begin{figure}[H]
+	\caption{Contenido de un archivo de configuración de kubernetes}
+    \begin{subfigure}{1\textwidth}
+	\includegraphics[width=1\textwidth]{configuracionKubernetesEjemplo.png}
+    \end{subfigure}
+	\label{fig:configuracionKubernetes}
+\end{figure}
+\vspace{-1.0\baselineskip}
 
 Ahora ir al directorio que contiene el código (sirhc), abrir el subdirectorio database. Luego ejecutar los siguientes comandos para aplicar cada archivo de configuración:
 
