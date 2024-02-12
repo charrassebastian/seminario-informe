@@ -979,6 +979,7 @@ La pantalla del editor de puestos avanzado permite modificar el nombre y la disp
 La pantalla del editor de trivia permite agregar y remover trivias, y también editar cada trivia. Al presionar el botón Editar, se habilitan las opciones para modificar la pregunta, explicación y respuestas (tanto su texto y si son correctas como su cantidad, pudiendo agregar o remover opciones).
 \newpage
 \subsection{Manual de instalación}
+\subsubsection{Requisitos}
 A continuación se mostrará cómo puede configurarse el sistema para que este funcione y cuáles son sus requisitos.
 
 Este sistema está pensado para correr en una computadora principal que actuará como servidor y en otras (una por puesto) que se encuentren conectadas en la misma red local de internet.
@@ -1000,6 +1001,7 @@ A continuación se dejan algunos enlaces útiles para instalar y configurar el s
     \item \href{https://minikube.sigs.k8s.io/docs/start/}{https://minikube.sigs.k8s.io/docs/start/}
 \end{itemize}
 
+\subsubsection{Iniciar minikube}
 Para poder correr las capas del sistema, ejecutar en primer lugar el siguiente comando:
 
 minikube start
@@ -1008,6 +1010,7 @@ Para poder ver el estado de las capas del sistema se puede luego ejecutar el pr�
 
 minikube dashboard
 
+\subsubsection{Aplicar configuraciones de kubernetes}
 Es necesario aplicar las configuraciones del backend, frontend y la base de datos, para ello hay que primero clonar el repositorio del sistema:
 
 git clone https://github.com/charrassebastian/sirhc
@@ -1036,6 +1039,7 @@ kubectl apply -f sirhc-frontend-deployment.yaml
 
 kubectl apply -f sirhc-frontend-service.yaml
 
+\subsubsection{Hacer accesible el sistema}
 Luego de unos minutos los contenedores ya deberían estar corriendo luego de haber sido descargados los datos necesarios. Cuando en el dashboard de minikube aparezcan todos los deployments con el estado running, entonces es hora de permitir las conexiones a los contenedores:
 
 kubectl port-forward svc/sirhc-backend 8082:80 \&
