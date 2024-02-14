@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1707922641 -1
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1707923522 -1
   "./bibliografia.bib" 1707764969 18081 da736e702dec022f2a0da9aeb1b933d1 ""
-  "main.bcf" 1707922640 139123 3657d717e0dec08fccf1af06ab5fe689 "pdflatex"
+  "main.bcf" 1707923521 139123 3657d717e0dec08fccf1af06ab5fe689 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1707922631 "c:/Users/sebas/seminario-informe/main.tex" "main.pdf" "main" 1707922641 0
+["pdflatex"] 1707923511 "c:/Users/sebas/seminario-informe/main.tex" "main.pdf" "main" 1707923522 0
   "C:/Users/sebas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1702671205 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/sebas/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1702671229 25420 bb01c2eb8e86c994c5b81c01d9ef7706 ""
   "C:/Users/sebas/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1702671244 31952 f4106b3c4d60f3798e7bc4db0c8e3183 ""
@@ -199,7 +199,7 @@
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "Logo-UTN-INSPT.png" 1707764969 15201 c48f9967dee09ab94e2dab62dc97bc14 ""
-  "c:/Users/sebas/seminario-informe/main.tex" 1707922630 79715 7ad1a04e7fda1d4cb055bf52ec393fba ""
+  "c:/Users/sebas/seminario-informe/main.tex" 1707923499 79796 d6a9341a27ff11f18940bb3aa5b4de71 ""
   "calificaciones para dbms.png" 1707764969 38329 1a4841e7a04ec1f792b74ef4be21564b ""
   "calificaciones para frameworks css.png" 1707764969 36880 6946301f1629fff716aa93b64d1e4291 ""
   "calificaciones para frameworks frontend.png" 1707764969 38616 54b98518b93adec3259cc3c32cab8013 ""
@@ -211,13 +211,13 @@
   "configuracionKubernetesEjemplo.png" 1707774927 53180 55e09dad5eb5f4164ed68c737b4837b7 ""
   "hospital.png" 1707764969 226465 a176fbff28ea2dee5dbd27b8e996dc57 ""
   "kubernetesDashboard.png" 1707774902 84577 e19fc9b03b312790af21438d2d4c7aa9 ""
-  "main.aux" 1707922640 36150 1dcae0e314cbe5b5cde05930c584ceed "pdflatex"
+  "main.aux" 1707923521 36312 5b0f57cbbb2357d8974c2e59adec195c "pdflatex"
   "main.bbl" 1707765855 228113 230a941aa73ba66fc4b7ce06d2d0c074 "biber main"
-  "main.lof" 1707922640 2708 6e7dc69dc6df16f7e911551d53512193 "pdflatex"
-  "main.out" 1707922640 6606 d44b6e5b9d0fffd496792afee5b5b533 "pdflatex"
-  "main.run.xml" 1707922640 2361 35d4ba219a86576031cb1c143b5e2c09 "pdflatex"
-  "main.tex" 1707922630 79715 7ad1a04e7fda1d4cb055bf52ec393fba ""
-  "main.toc" 1707922640 3405 352b1c3879af8368a9eacaaf0152b320 "pdflatex"
+  "main.lof" 1707923521 2789 c9f8e9c5ef8a84132da40bdcecf09a78 "pdflatex"
+  "main.out" 1707923521 6606 d44b6e5b9d0fffd496792afee5b5b533 "pdflatex"
+  "main.run.xml" 1707923521 2361 35d4ba219a86576031cb1c143b5e2c09 "pdflatex"
+  "main.tex" 1707923499 79796 d6a9341a27ff11f18940bb3aa5b4de71 ""
+  "main.toc" 1707923521 3405 352b1c3879af8368a9eacaaf0152b320 "pdflatex"
   "most-used-web-frameworks-2021-survey-1-1024x576.png" 1707764969 88701 06220b43120884b4122bb4bb7dade8b9 ""
   "preguntados.png" 1707764969 47685 3b993c91d8f81139d7d56205d42c261a ""
   "sirhc editor de puesto.png" 1707764970 4419166 0525c83740da53cfaefe57ff43f68f7a ""
