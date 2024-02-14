@@ -1,37 +1,37 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{15}{section.1}%
-\contentsline {section}{\numberline {2}Estado del arte}{16}{section.2}%
-\contentsline {section}{\numberline {3}Definición del problema}{19}{section.3}%
-\contentsline {section}{\numberline {4}Solución propuesta}{20}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Determinación de metodologías y tecnologías a utilizar}{21}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Metodologías}{22}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Lenguaje de programación del lado del cliente}{23}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Framework para CSS}{25}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}Framework o biblioteca frontend}{26}{subsubsection.4.1.4}%
-\contentsline {subsubsection}{\numberline {4.1.5}Lenguaje de programación y framework backend}{29}{subsubsection.4.1.5}%
-\contentsline {subsubsection}{\numberline {4.1.6}Base de datos}{31}{subsubsection.4.1.6}%
-\contentsline {subsubsection}{\numberline {4.1.7}Testing}{32}{subsubsection.4.1.7}%
-\contentsline {subsection}{\numberline {4.2}Análisis de requisitos}{34}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Puestos}{34}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Trivia}{34}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}Especificaciones del sistema}{35}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Análisis del sistema}{36}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Resultados}{37}{section.5}%
-\contentsline {section}{\numberline {6}Conclusiones}{40}{section.6}%
-\contentsline {section}{\numberline {7}Referencias}{41}{section.7}%
-\contentsline {section}{\numberline {8}Bibliografía}{45}{section.8}%
-\contentsline {section}{\numberline {9}Anexos}{46}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Selección de metodologías y tecnologías}{46}{subsection.9.1}%
-\contentsline {subsubsection}{\numberline {9.1.1}Selección de metodologías}{46}{subsubsection.9.1.1}%
-\contentsline {subsubsection}{\numberline {9.1.2}Selección de lenguajes frontend}{47}{subsubsection.9.1.2}%
-\contentsline {subsubsection}{\numberline {9.1.3}Selección de framework para CSS}{48}{subsubsection.9.1.3}%
-\contentsline {subsubsection}{\numberline {9.1.4}Selección de frameworks o bibliotecas frontend}{50}{subsubsection.9.1.4}%
-\contentsline {subsubsection}{\numberline {9.1.5}Lenguajes y frameworks backend}{51}{subsubsection.9.1.5}%
-\contentsline {subsubsection}{\numberline {9.1.6}Selección de Sistema Gestor de Base de Datos}{52}{subsubsection.9.1.6}%
-\contentsline {subsubsection}{\numberline {9.1.7}Selección de framework para testing}{54}{subsubsection.9.1.7}%
-\contentsline {subsection}{\numberline {9.2}Manual de uso}{56}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Manual de instalación}{59}{subsection.9.3}%
-\contentsline {subsubsection}{\numberline {9.3.1}Requisitos}{59}{subsubsection.9.3.1}%
-\contentsline {subsubsection}{\numberline {9.3.2}Iniciar minikube}{59}{subsubsection.9.3.2}%
-\contentsline {subsubsection}{\numberline {9.3.3}Aplicar configuraciones de kubernetes}{60}{subsubsection.9.3.3}%
-\contentsline {subsubsection}{\numberline {9.3.4}Hacer accesible el sistema}{62}{subsubsection.9.3.4}%
+\contentsline {section}{\numberline {1}Introducción}{16}{section.1}%
+\contentsline {section}{\numberline {2}Estado del arte}{17}{section.2}%
+\contentsline {section}{\numberline {3}Definición del problema}{20}{section.3}%
+\contentsline {section}{\numberline {4}Solución propuesta}{21}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Determinación de metodologías y tecnologías a utilizar}{22}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Metodologías}{23}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Lenguaje de programación del lado del cliente}{24}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Framework para CSS}{26}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Framework o biblioteca frontend}{27}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}Lenguaje de programación y framework backend}{30}{subsubsection.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.6}Base de datos}{32}{subsubsection.4.1.6}%
+\contentsline {subsubsection}{\numberline {4.1.7}Testing}{33}{subsubsection.4.1.7}%
+\contentsline {subsection}{\numberline {4.2}Análisis de requisitos}{35}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Puestos}{35}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Trivia}{35}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Especificaciones del sistema}{36}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Análisis del sistema}{37}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Resultados}{38}{section.5}%
+\contentsline {section}{\numberline {6}Conclusiones}{41}{section.6}%
+\contentsline {section}{\numberline {7}Referencias}{42}{section.7}%
+\contentsline {section}{\numberline {8}Bibliografía}{46}{section.8}%
+\contentsline {section}{\numberline {9}Anexos}{47}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Selección de metodologías y tecnologías}{47}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Selección de metodologías}{47}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Selección de lenguajes frontend}{48}{subsubsection.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.3}Selección de framework para CSS}{49}{subsubsection.9.1.3}%
+\contentsline {subsubsection}{\numberline {9.1.4}Selección de frameworks o bibliotecas frontend}{51}{subsubsection.9.1.4}%
+\contentsline {subsubsection}{\numberline {9.1.5}Lenguajes y frameworks backend}{52}{subsubsection.9.1.5}%
+\contentsline {subsubsection}{\numberline {9.1.6}Selección de Sistema Gestor de Base de Datos}{53}{subsubsection.9.1.6}%
+\contentsline {subsubsection}{\numberline {9.1.7}Selección de framework para testing}{55}{subsubsection.9.1.7}%
+\contentsline {subsection}{\numberline {9.2}Manual de uso}{57}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Manual de instalación}{60}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}Requisitos}{60}{subsubsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.2}Iniciar minikube}{60}{subsubsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.3}Aplicar configuraciones de kubernetes}{61}{subsubsection.9.3.3}%
+\contentsline {subsubsection}{\numberline {9.3.4}Hacer accesible el sistema}{63}{subsubsection.9.3.4}%

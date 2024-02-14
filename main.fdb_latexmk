@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1707923522 -1
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1707925182 -1
   "./bibliografia.bib" 1707764969 18081 da736e702dec022f2a0da9aeb1b933d1 ""
-  "main.bcf" 1707923521 139123 3657d717e0dec08fccf1af06ab5fe689 "pdflatex"
+  "main.bcf" 1707925181 139123 3657d717e0dec08fccf1af06ab5fe689 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1707923511 "c:/Users/sebas/seminario-informe/main.tex" "main.pdf" "main" 1707923522 0
-  "C:/Users/sebas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1702671205 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1707925172 "c:/Users/sebas/seminario-informe/main.tex" "main.pdf" "main" 1707925182 0
+  "C:/Users/sebas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1707923983 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/sebas/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1702671229 25420 bb01c2eb8e86c994c5b81c01d9ef7706 ""
   "C:/Users/sebas/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1702671244 31952 f4106b3c4d60f3798e7bc4db0c8e3183 ""
   "C:/Users/sebas/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1702671233 40136 ec4baaf610ea38e1476b962bc2030e0a ""
@@ -147,6 +147,7 @@
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/csquotes/csquotes.sty" 1663133446 62761 3c92d495a9e03d7254b9a3266aa17164 ""
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty" 1668504483 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty" 1469023953 6916 16d2656a1984957e674b149555f1ea1d ""
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
@@ -159,7 +160,6 @@
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1665067579 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx" 1665067579 3171 1cf0d440b5464e2f034398ce4ef36f75 ""
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1665067579 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
-  "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/grfext/grfext.sty" 1575399474 7133 b94bbacbee6e4fdccdc7f810b2aec370 ""
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty" 1580380792 18571 4c28a13fc3d975e6e81c9bea1d697276 ""
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hpdftex.def" 1701020798 48154 77bec99bb3bbdf933bcecb211f7f4038 ""
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty" 1701020798 220895 6ca6b57b8bf00b1b056e6f2806b9ff68 ""
@@ -199,7 +199,7 @@
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/sebas/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "Logo-UTN-INSPT.png" 1707764969 15201 c48f9967dee09ab94e2dab62dc97bc14 ""
-  "c:/Users/sebas/seminario-informe/main.tex" 1707923499 79796 d6a9341a27ff11f18940bb3aa5b4de71 ""
+  "c:/Users/sebas/seminario-informe/main.tex" 1707925171 79924 86f14d517138a6786ac3899988d1e8a6 ""
   "calificaciones para dbms.png" 1707764969 38329 1a4841e7a04ec1f792b74ef4be21564b ""
   "calificaciones para frameworks css.png" 1707764969 36880 6946301f1629fff716aa93b64d1e4291 ""
   "calificaciones para frameworks frontend.png" 1707764969 38616 54b98518b93adec3259cc3c32cab8013 ""
@@ -211,13 +211,13 @@
   "configuracionKubernetesEjemplo.png" 1707774927 53180 55e09dad5eb5f4164ed68c737b4837b7 ""
   "hospital.png" 1707764969 226465 a176fbff28ea2dee5dbd27b8e996dc57 ""
   "kubernetesDashboard.png" 1707774902 84577 e19fc9b03b312790af21438d2d4c7aa9 ""
-  "main.aux" 1707923521 36312 5b0f57cbbb2357d8974c2e59adec195c "pdflatex"
+  "main.aux" 1707925181 36312 5802a08763c7d53a787da2fb297d8f3b "pdflatex"
   "main.bbl" 1707765855 228113 230a941aa73ba66fc4b7ce06d2d0c074 "biber main"
-  "main.lof" 1707923521 2789 c9f8e9c5ef8a84132da40bdcecf09a78 "pdflatex"
-  "main.out" 1707923521 6606 d44b6e5b9d0fffd496792afee5b5b533 "pdflatex"
-  "main.run.xml" 1707923521 2361 35d4ba219a86576031cb1c143b5e2c09 "pdflatex"
-  "main.tex" 1707923499 79796 d6a9341a27ff11f18940bb3aa5b4de71 ""
-  "main.toc" 1707923521 3405 352b1c3879af8368a9eacaaf0152b320 "pdflatex"
+  "main.lof" 1707925181 2789 716bcf73238fbf4732377bd8e22d2578 "pdflatex"
+  "main.out" 1707925181 6606 d44b6e5b9d0fffd496792afee5b5b533 "pdflatex"
+  "main.run.xml" 1707925181 2361 35d4ba219a86576031cb1c143b5e2c09 "pdflatex"
+  "main.tex" 1707925171 79924 86f14d517138a6786ac3899988d1e8a6 ""
+  "main.toc" 1707925181 3405 545e5f1521b6cacfc9dfa959d9deac30 "pdflatex"
   "most-used-web-frameworks-2021-survey-1-1024x576.png" 1707764969 88701 06220b43120884b4122bb4bb7dade8b9 ""
   "preguntados.png" 1707764969 47685 3b993c91d8f81139d7d56205d42c261a ""
   "sirhc editor de puesto.png" 1707764970 4419166 0525c83740da53cfaefe57ff43f68f7a ""
