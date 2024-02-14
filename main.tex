@@ -85,9 +85,7 @@ En el presente trabajo se muestran las problemáticas, el desarrollo y los resul
 Debido a la necesidad de saber si es posible pasar a un puesto para recibir atención o si por el contrario hay que esperar, contar con una pantalla que indique los puestos libres resulta algo conveniente en muchas instituciones, desde bancos y hospitales hasta locales de venta al público. En este caso, los principales beneficios son la disminución del tiempo perdido y simplificación del trabajo, ya que de no haber una pantalla con esta información, un empleado debería indicar en voz alta a los pacientes cada vez que un puesto se libere.
 
 Se realizó un extenso proceso de selección para elegir qué tecnologías usar para este desarrollo, dicho proceso se encuentra documentado en este trabajo al igual que las características del sistema producido y los resultados de su implementación.
-\newpage
-\
-\newpage
+
 \section*{Abstract}
 
 In this text you will be able to read about the problems, the development and the results of the implementation of the Informative System for the Reception of the Clinics Hospital. This system is meant to bring information to the patients regarding the available spots that they can use to recieve attention and also brings them a trivia that can make the wait more entertaining.
@@ -126,7 +124,6 @@ El presente trabajo busca eficientizar el uso del tiempo en la recepción para i
 A lo largo del trabajo podrán observarse las implementaciones realizadas para otras instituciones de sistemas similares (Estado del Arte), cuales son los detalles de las problemáticas que se busca resolver (Definición del problema), que características posee la solución planteada (Solución propuesta), los resultados y las conclusiones.
 
 En el anexo se podrá ahondar en el analisis que se realizó a la hora de elegir las principales tecnologías y metodologías a usar. A su vez allí también se encuentran las instrucciones de uso y de instalación del sistema.
-\newpage
 \section{Estado del arte}
 En la actualidad se utilizan sistemas que cumplen al menos uno de los dos principales objetivos del proyecto en cuestión, ya sea indicar información relevante o brindar un medio para volver más ameno el momento.
 
@@ -134,7 +131,7 @@ Por ejemplo, en algunos hospitales se usa una pantalla que muestre una lista con
 \begin{figure}[H]
 	\caption{Hospital con pantalla para distribuir pacientes}
     \begin{subfigure}{1.0\textwidth}
-	\includegraphics[width=0.8\textwidth]{hospital.png}
+	\includegraphics[width=0.5\textwidth]{hospital.png}
 	\subcaption*{\textit{Nota:} Extraída de \citeauthor{pantallasChange} (s.f.)}
     \end{subfigure}
 	\label{fig:hospital}
@@ -148,7 +145,7 @@ De hecho, incluso en algunos colectivos pueden verse pantallas que muestran cont
 \begin{figure}[H]
 	\caption{Preguntados}
     \begin{subfigure}{1.0\textwidth}
-	\includegraphics[width=0.7\textwidth]{preguntados.png}
+	\includegraphics[width=0.3\textwidth]{preguntados.png}
 	\subcaption*{\textit{Nota:} Extraída de \citeauthor{playStorePreguntados} (s.f.)}
     \end{subfigure}
 	\label{fig:preguntados}
@@ -165,7 +162,6 @@ Dado que se desea usar una trivia para el proyecto en cuestión, se buscó infor
 \end{figure}
 \vspace{-1.0\baselineskip}
 Los ejemplos de sistemas vigentes actualmente muestran algunas formas en que se resolvieron problemáticas similares a las que debió enfrentar el proyecto actual. Elementos como la trivia y las indicaciones para distribuir pacientes son necesarios para resolverlas, y también la provisión de una salida sonora para el sistema demostró ser necesaria para así mejorar su accesibilidad.
-\newpage
 \section{Definición del problema}
 Antes de desarrollar el sistema planteado, existían múltiples problemas en el sector de espera para internación del Hospital de Clínicas.
 
@@ -176,12 +172,10 @@ Además, al tratarse de una espera para internación, la situación no resultaba
 Por último, al contar con un edificio de grandes proporciones, no es fácil saber específicamente ciertas cosas como, por ejemplo, la ubicación de los distintos sectores de atención. Podía aumentarse el conocimiento de aspectos importantes como este mediante el uso de la pantalla para dar información que beneficie a los pacientes adicional a la de los puestos libres.
 
 De esta forma, con una pantalla, un sistema de audio y una computadora podían atenderse los tres problemas utilizando un sistema que indique los puestos libres, información sobre temas relevantes y una trivia referida a esos temas para volver más amena la espera.
-\newpage
 \section{Solución propuesta}
 Para dar una solución a los problemas vistos, se necesitó contar con una lista de puestos libres que sólo muestre aquellos a los cuales los pacientes puedan pasar. En caso de que ningún puesto esté libre, se optó por mostrar un único mensaje que lo indique. Cuando un puesto se libera u ocupa, la lista se actualiza y esto se refleja tanto en la pantalla como mediante una salida de audio, en caso de encontrarse habilitada.
 
 Para mostrar la trivia se eligió usar una parte de la pantalla, en la que aparezca un enunciado con unas posibles respuestas. Una vez terminado el tiempo, se indica la respuesta correcta y aparece un texto que brinda la explicación.
-\newpage
 \subsection{Determinación de metodologías y tecnologías a utilizar}
 A la hora de determinar las metodologías y tecnologías que se usarán en el desarrollo del sistema, se debieron tener en cuenta ciertos factores que permitieran distinguir las mejores opciones de entre las demás. Para ello se prestó atención a los factores enumerados a continuación:
 
@@ -452,7 +446,6 @@ Al asignar pesos como calificaciones a los atributos a evaluar, y luego hacer lo
 \end{figure}
 \vspace{-1.0\baselineskip}
 Como resultado del proceso de selección detallado en el Anexo I, se determinó que Jest sería la opción elegida para el desarrollo del sistema.
-\newpage
 \subsection{Análisis de requisitos}
 El sistema consta de dos requisitos principales: en primer lugar, aportar información sobre qué puestos se encuentran libres, actualizándose de manera automática y permitiendo a quienes lo controlen modificar dicha información; y en segundo lugar, brindar un método de recreación a través de una trivia, la cual también deberá ser editable por quienes controlen el sistema.
 
@@ -471,12 +464,10 @@ Los datos deberán guardarse en una base de datos para que los mismos queden alm
 La trivia constará de preguntas con varias respuestas posibles, algunas correctas y otras incorrectas, y una explicación de por qué son correctas las respuestas así indicadas. Contar con animaciones para las transiciones entre preguntas y respuestas resulta apropiado para dar una mejor experiencia al usuario. Las trivias se podrán ver desde la pantalla principal junto con los puestos.
 
 Cada trivia podrá ser ingresada por los encargados del sistema. Deberá proveerse una interfaz de usuario que cuente con opciones para eliminar trivias y editarlas, modificando campos como la pregunta, las respuestas, cuáles son correctas y la explicación.
-\newpage
 \subsection{Especificaciones del sistema}
 Para la base de datos se optó por usar MongoDB. Esto implicó que la conexión entre el servidor y la base de datos se realice a través de Mongoose. Este servidor se implementó con tecnologías basadas en JavaScript, como NodeJS\textsuperscript{\textregistered} y Express.js. El testing se realizó usando Jest. Para posibilitar el despliegue usando contenedores se usó Docker junto con Kubernetes.
 
 Para el frontend se eligió crear un cliente web que fuera accesible desde un navegador de internet. Al igual que en el backend se usaron tecnologías basadas en JavaScript, en este caso React junto con Fluent UI, Tailwind y Vite.
-\newpage
 \subsection{Análisis del sistema}
 La información necesaria para ambas partes del sistema se representó a través de documentos en la base de datos no relacional hecha con MongoDB. Estos documentos podían contar con dos estructuras, dependiendo si se trataba de trivias o de puestos.
 
@@ -495,7 +486,6 @@ El editor simple para puestos permite elegir a través de una lista desplegable 
 El editor avanzado para puestos permite agregar, quitar y editar puestos. Los datos que deja modificar son los nombres y la disponibilidad de cada puesto.
 
 El editor de trivias permite agregar, quitar y editar trivias. En cada trivia pueden modificarse la pregunta, la explicación, las respuestas y la validez de cada una.
-\newpage
 \section{Resultados}
 El sistema implementado consta de los componentes descriptos anteriormente, por lo que en esta sección podrán verse el aspecto que tomaron, detalles sobre su funcionalidad y características finales.
 
@@ -544,7 +534,6 @@ Al usar contenedores se pueden aislar las capas del sistema (cliente, servidor y
 Los tests implementados para la API permiten contar con un mayor grado de confianza en el sistema, asegurando el buen funcionamiento de esta parte esencial del backend, necesaria para que pueda usarse sin problemas. El testing no incluyó, por ejemplo, a los componentes del cliente, sino que se centró exclusivamente en la API, particularmente en el servidor.
 
 La base de datos usa MongoDB, para lo que puede aprovecharse la imagen oficial de dicho software para crear un contenedor y correrlo de manera sencilla. Las versiones más recientes requieren soporte de instrucciones AVX en el procesador, por lo que en computadoras más antiguas y de gamas más bajas es posible encontrar incompatibilidades debido a este requisito. Sin embargo, usando una versión antigua es posible resolver este problema, como por ejemplo la versión 4.
-\newpage
 \section{Conclusiones}
 La experiencia de desarrollo fue enriquecedora, contribuyendo a adquirir y reforzar conocimientos en diversas áreas del desarrollo, tanto sobre tecnologías como de metodologías.
 
@@ -556,15 +545,16 @@ Por otra parte, las tecnologías usadas contribuyeron a la creación del sistema
 
 Aunque la cantidad de tecnologías y de metodologías en las que se tuvo que ahondar para realizar el desarrollo fue mayor que en otros proyectos realizados, las elecciones tomadas hicieron que esto no llevara a un atraso en los tiempos de desarrollo ni a una merma en las características implementadas. Los nuevos conocimientos adquiridos y la experiencia obtenida son algunas de las cosas más útiles que se consiguieron en este proyecto.
 \newpage
-\section{Referencias}
+\
+\newpage
+\section*{Referencias}
 \begin{sloppypar}
 \printbibliography[heading=none,category=cited]
 \end{sloppypar}
-\newpage
-\section{Bibliografía}
+\section*{Bibliografía}
 \printbibliography[heading=none,notcategory=cited]
 \newpage
-\section{Anexos}
+\section*{Anexos}
 \subsection{Selección de metodologías y tecnologías}
 \subsubsection{Selección de metodologías}
 Para realizar la selección se usaron los mismos símbolos como pesos indicados en el ejemplo. Los pesos de referencia de los atributos para este caso son los siguientes:
